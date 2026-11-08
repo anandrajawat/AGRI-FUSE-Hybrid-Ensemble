@@ -1,6 +1,6 @@
 # AGRI-FUSE Hybrid Ensemble (AF-HE)
 
-[![CI/CD Pipeline](https://github.com/rupesh/agri-fuse/actions/workflows/ci.yml/badge.svg)](https://github.com/rupesh/agri-fuse/actions/workflows/ci.yml)
+[![CI/CD Pipeline](https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble/actions/workflows/ci.yml/badge.svg)](https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue.svg)](https://www.python.org/)
 [![PyTorch 2.1+](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C.svg)](https://pytorch.org/)
 [![Streamlit 1.30+](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg)](https://streamlit.io/)
@@ -153,8 +153,8 @@ The platform includes a 17-page scientific research and inference interface buil
 ### 1. Local Setup
 ```bash
 # Clone the repository
-git clone https://github.com/rupesh/agri-fuse.git
-cd agri-fuse
+git clone https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble.git
+cd AGRI-FUSE-Hybrid-Ensemble
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -314,6 +314,6 @@ If you use the AGRI-FUSE Hybrid Ensemble architecture or experimental findings i
   author={AGRI-FUSE Research Team},
   journal={Agricultural Artificial Intelligence & Machine Learning Systems},
   year={2026},
-  url={https://github.com/rupesh/agri-fuse}
+  url={https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble}
 }
 ```

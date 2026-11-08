@@ -67,9 +67,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/rupesh/agri-fuse"
-"Documentation" = "https://github.com/rupesh/agri-fuse#readme"
-"Bug Tracker" = "https://github.com/rupesh/agri-fuse/issues"
+"Homepage" = "https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble"
+"Documentation" = "https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble#readme"
+"Bug Tracker" = "https://github.com/kohlirupesh19/AGRI-FUSE-Hybrid-Ensemble/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
