@@ -77,3 +77,4 @@ jobs:
         context: .
         push: false
         tags: agri-fuse:latest
+
