@@ -1,0 +1,2810 @@
+{
+  "dataset_1": {
+    "name": "Crop Recommendation",
+    "filepath": "agri-fuse/data/raw/crop_recommendation/Crop_recommendation.csv",
+    "rows": 2200,
+    "columns": 8,
+    "missing_total": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "N",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 137,
+        "min": 0.0,
+        "max": 140.0,
+        "mean": 50.551818181818184,
+        "std": 36.9173338337566
+      },
+      {
+        "name": "P",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 117,
+        "min": 5.0,
+        "max": 145.0,
+        "mean": 53.36272727272727,
+        "std": 32.98588273858715
+      },
+      {
+        "name": "K",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 73,
+        "min": 5.0,
+        "max": 205.0,
+        "mean": 48.14909090909091,
+        "std": 50.64793054666013
+      },
+      {
+        "name": "temperature",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 8.825674745,
+        "max": 43.67549305,
+        "mean": 25.616243851779544,
+        "std": 5.063748599958843
+      },
+      {
+        "name": "humidity",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 14.25803981,
+        "max": 99.98187601,
+        "mean": 71.48177921778637,
+        "std": 22.263811589761083
+      },
+      {
+        "name": "ph",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 3.504752314,
+        "max": 9.93509073,
+        "mean": 6.469480065256364,
+        "std": 0.7739376880298733
+      },
+      {
+        "name": "rainfall",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 20.21126747,
+        "max": 298.5601175,
+        "mean": 103.46365541576817,
+        "std": 54.95838852487813
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 22,
+        "sample_categories": [
+          "rice",
+          "maize",
+          "chickpea",
+          "kidneybeans",
+          "pigeonpeas"
+        ]
+      }
+    ]
+  },
+  "dataset_2": {
+    "name": "Indian Crop Yield",
+    "filepath": "agri-fuse/data/raw/indian_crop_yield/crop_yield.csv",
+    "rows": 19689,
+    "columns": 10,
+    "missing_total": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "Crop",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 55,
+        "sample_categories": [
+          "Arecanut",
+          "Arhar/Tur",
+          "Castor seed",
+          "Coconut ",
+          "Cotton(lint)"
+        ]
+      },
+      {
+        "name": "Crop_Year",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 24,
+        "min": 1997.0,
+        "max": 2020.0,
+        "mean": 2009.1275839301134,
+        "std": 6.498098951393285
+      },
+      {
+        "name": "Season",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 6,
+        "sample_categories": [
+          "Whole Year ",
+          "Kharif     ",
+          "Rabi       ",
+          "Autumn     ",
+          "Summer     "
+        ]
+      },
+      {
+        "name": "State",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 30,
+        "sample_categories": [
+          "Assam",
+          "Karnataka",
+          "Kerala",
+          "Meghalaya",
+          "West Bengal"
+        ]
+      },
+      {
+        "name": "Area",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 13644,
+        "min": 0.5,
+        "max": 50808100.0,
+        "mean": 179926.57030814158,
+        "std": 732828.6758877123
+      },
+      {
+        "name": "Production",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 14016,
+        "min": 0.0,
+        "max": 6326000000.0,
+        "mean": 16435941.273096653,
+        "std": 263056839.8125683
+      },
+      {
+        "name": "Annual_Rainfall",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 634,
+        "min": 301.3,
+        "max": 6552.7,
+        "mean": 1437.7551766159681,
+        "std": 816.9095887579945
+      },
+      {
+        "name": "Fertilizer",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 18598,
+        "min": 54.17,
+        "max": 4835406877.0,
+        "mean": 24103312.448805965,
+        "std": 94946004.48252676
+      },
+      {
+        "name": "Pesticide",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 17405,
+        "min": 0.09,
+        "max": 15750511.0,
+        "mean": 48848.35339200924,
+        "std": 213287.35485950505
+      },
+      {
+        "name": "Yield",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 13551,
+        "min": 0.0,
+        "max": 21105.0,
+        "mean": 79.9540091300867,
+        "std": 878.3061926565967
+      }
+    ]
+  },
+  "dataset_3": {
+    "name": "Eastern India Wheat",
+    "filepath": "agri-fuse/data/raw/eastern_wheat/Wheat_Yld_Eastern_IND_Data.xlsx",
+    "rows": 5689,
+    "columns": 49,
+    "missing_total": 16191,
+    "missing_pct": 5.8082,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "Field_ID",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5689,
+        "min": 1.0,
+        "max": 6288.0,
+        "mean": 3099.1255053612235,
+        "std": 1821.3130644952423
+      },
+      {
+        "name": "Year",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 6,
+        "sample_categories": [
+          "2016-17",
+          "2017-18",
+          "2018-19",
+          "2019-20",
+          "2020-21"
+        ]
+      },
+      {
+        "name": "District",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 10,
+        "sample_categories": [
+          "Buxar",
+          "EastChamparan",
+          "Bhojpur",
+          "Muzaffarpur",
+          "Deoria"
+        ]
+      },
+      {
+        "name": "State",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2,
+        "sample_categories": [
+          "Bihar",
+          "UttarPradesh"
+        ]
+      },
+      {
+        "name": "LandType",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "sample_categories": [
+          "Medium",
+          "Up",
+          "Low"
+        ]
+      },
+      {
+        "name": "SoilType",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "sample_categories": [
+          "Heavy",
+          "Medium",
+          "Light",
+          "light",
+          "medium"
+        ]
+      },
+      {
+        "name": "PreviousCrop",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 7,
+        "sample_categories": [
+          "Rice",
+          "Maize",
+          "Soybean",
+          "Fallow",
+          "maize"
+        ]
+      },
+      {
+        "name": "PrevCropResidue",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 25.4350500966778,
+        "std": 18.831215346211387
+      },
+      {
+        "name": "CropEstablishment",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2,
+        "sample_categories": [
+          "ZT",
+          "CT"
+        ]
+      },
+      {
+        "name": "Variety",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 25,
+        "sample_categories": [
+          "HD2967",
+          "HD2733",
+          "PBW373",
+          "HI1563",
+          "PBW154"
+        ]
+      },
+      {
+        "name": "VarietyClass",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2,
+        "sample_categories": [
+          "Long",
+          "Short"
+        ]
+      },
+      {
+        "name": "SeedRate",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 15,
+        "min": 99.0,
+        "max": 161.0,
+        "mean": 115.93083142907365,
+        "std": 14.430568357609944
+      },
+      {
+        "name": "SowingDate",
+        "dtype": "datetime64[us]",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 321,
+        "sample_categories": [
+          "2016-11-01 00:00:00",
+          "2016-11-10 00:00:00",
+          "2016-11-11 00:00:00",
+          "2016-11-13 00:00:00",
+          "2016-11-14 00:00:00"
+        ]
+      },
+      {
+        "name": "SowingDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 61,
+        "min": 305.0,
+        "max": 365.0,
+        "mean": 328.8744946387766,
+        "std": 15.004232813301973
+      },
+      {
+        "name": "BasalDAP",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 26,
+        "min": 0.0,
+        "max": 185.0,
+        "mean": 105.37335208296713,
+        "std": 45.096823091146526
+      },
+      {
+        "name": "BasalNPK",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 22,
+        "min": 0.0,
+        "max": 185.0,
+        "mean": 15.277641061698013,
+        "std": 37.081186151138155
+      },
+      {
+        "name": "GradeNPK",
+        "dtype": "object",
+        "missing_count": 4659,
+        "missing_pct": 81.895,
+        "unique_values": 5,
+        "sample_categories": [
+          "12:32:16",
+          "20:20:13",
+          "10:26:26",
+          "14:35:14",
+          "18:46:00"
+        ]
+      },
+      {
+        "name": "BasalMOP",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 49,
+        "min": 0.0,
+        "max": 109.0,
+        "mean": 25.585603796800843,
+        "std": 24.699362563987908
+      },
+      {
+        "name": "BasalZn",
+        "dtype": "float64",
+        "missing_count": 5185,
+        "missing_pct": 91.141,
+        "unique_values": 16,
+        "min": 1.5,
+        "max": 45.0,
+        "mean": 9.862103174603174,
+        "std": 11.72753689448898
+      },
+      {
+        "name": "Split1Urea",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 21,
+        "min": 62.5,
+        "max": 185.0,
+        "mean": 118.00791000175778,
+        "std": 19.18077880788081
+      },
+      {
+        "name": "Split2Urea",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 57,
+        "min": 24.4,
+        "max": 185.0,
+        "mean": 87.70244331165406,
+        "std": 26.972449401743265
+      },
+      {
+        "name": "Split3Urea",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 31,
+        "min": 0.0,
+        "max": 125.0,
+        "mean": 35.287748286166284,
+        "std": 30.114506786549025
+      },
+      {
+        "name": "IrrigationNumber",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.8259799613288803,
+        "std": 0.7747010858734578
+      },
+      {
+        "name": "FirstIrrigationDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 21,
+        "min": 15.0,
+        "max": 48.0,
+        "mean": 22.313060291791174,
+        "std": 2.135833830110684
+      },
+      {
+        "name": "SecondIrrigationDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 59,
+        "min": 0.0,
+        "max": 114.0,
+        "mean": 50.52627878361751,
+        "std": 13.773447730991542
+      },
+      {
+        "name": "ThirdIrrigationDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 70,
+        "min": 0.0,
+        "max": 120.0,
+        "mean": 54.51766567059237,
+        "std": 41.58656535683898
+      },
+      {
+        "name": "FourthIrrigationDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 45,
+        "min": 0.0,
+        "max": 125.0,
+        "mean": 18.51784144840921,
+        "std": 39.541510081572696
+      },
+      {
+        "name": "FifthIrrigationDay",
+        "dtype": "float64",
+        "missing_count": 5640,
+        "missing_pct": 99.139,
+        "unique_values": 13,
+        "min": 100.0,
+        "max": 128.0,
+        "mean": 111.59183673469387,
+        "std": 7.210866705151038
+      },
+      {
+        "name": "HerbicideName",
+        "dtype": "str",
+        "missing_count": 325,
+        "missing_pct": 5.713,
+        "unique_values": 28,
+        "sample_categories": [
+          "Metsulfuron+Sulfosulfuron (Total)",
+          "Total, 2,4-D",
+          "2,4-Dichlorophenoxyacetic acid (2,4-D)",
+          "Affinity+Topic",
+          "Sulphosulfuron 75% (Leader)+Carfentrazone Ethyl 40DF (Affinity)"
+        ]
+      },
+      {
+        "name": "HerbicideType",
+        "dtype": "str",
+        "missing_count": 325,
+        "missing_pct": 5.713,
+        "unique_values": 3,
+        "sample_categories": [
+          "AllWeeds",
+          "BroadLeafWeeds",
+          "NarrowLeafWeeds"
+        ]
+      },
+      {
+        "name": "WeedingNumber",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2,
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.02091756020390227,
+        "std": 0.14312098533897105
+      },
+      {
+        "name": "CropLodging",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 11,
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 2.388820530849007,
+        "std": 8.883089001890031
+      },
+      {
+        "name": "HarvestDate",
+        "dtype": "datetime64[us]",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 201,
+        "sample_categories": [
+          "2017-04-21 00:00:00",
+          "2017-04-24 00:00:00",
+          "2017-04-15 00:00:00",
+          "2017-04-18 00:00:00",
+          "2017-04-08 00:00:00"
+        ]
+      },
+      {
+        "name": "HarvestDay",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 47,
+        "min": 63.0,
+        "max": 140.0,
+        "mean": 101.88310775180172,
+        "std": 7.485302836489928
+      },
+      {
+        "name": "Prcp_Monsoon",
+        "dtype": "float64",
+        "missing_count": 19,
+        "missing_pct": 0.334,
+        "unique_values": 208,
+        "min": 573.8700046,
+        "max": 1296.579998,
+        "mean": 872.9249035057671,
+        "std": 146.44513670610849
+      },
+      {
+        "name": "Prcp_Oct",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 209,
+        "min": 2.889999926,
+        "max": 228.4299965,
+        "mean": 46.19851641237616,
+        "std": 39.66049627308663
+      },
+      {
+        "name": "Nov_Tmax",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 497,
+        "min": 26.0588755,
+        "max": 28.378641800000025,
+        "mean": 27.66592372518898,
+        "std": 0.3712905955080093
+      },
+      {
+        "name": "EDD_Nov",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 13,
+        "min": 0.0,
+        "max": 12.0,
+        "mean": 5.9154508701001935,
+        "std": 2.7041904980491824
+      },
+      {
+        "name": "Dec_Tmax",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 497,
+        "min": 19.99483840000005,
+        "max": 25.028788700000007,
+        "mean": 22.994731537792255,
+        "std": 1.2490047290607669
+      },
+      {
+        "name": "EDD_Dec",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 17,
+        "min": 0.0,
+        "max": 16.0,
+        "mean": 7.23185094041132,
+        "std": 4.394352688418458
+      },
+      {
+        "name": "Jan_Srad",
+        "dtype": "float64",
+        "missing_count": 19,
+        "missing_pct": 0.334,
+        "unique_values": 123,
+        "min": 368.0,
+        "max": 509.0,
+        "mean": 444.5899470899471,
+        "std": 30.87455664193941
+      },
+      {
+        "name": "Feb_Srad",
+        "dtype": "float64",
+        "missing_count": 19,
+        "missing_pct": 0.334,
+        "unique_values": 84,
+        "min": 449.0,
+        "max": 538.0,
+        "mean": 497.69347442680777,
+        "std": 18.995052129163174
+      },
+      {
+        "name": "Mar_Tmax",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 497,
+        "min": 28.588309800000047,
+        "max": 34.51641040000004,
+        "mean": 31.39574487305328,
+        "std": 1.486024018408189
+      },
+      {
+        "name": "EDD_Mar",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 28,
+        "min": 0.0,
+        "max": 28.0,
+        "mean": 14.361047635788363,
+        "std": 6.3521042084921255
+      },
+      {
+        "name": "Apr_Tmax",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 497,
+        "min": 32.45551660000001,
+        "max": 40.118211900000006,
+        "mean": 35.66610170573038,
+        "std": 1.4268017669121154
+      },
+      {
+        "name": "EDD_Apr",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 31,
+        "min": 0.0,
+        "max": 30.0,
+        "mean": 14.345051854455967,
+        "std": 6.652723594538897
+      },
+      {
+        "name": "GrainYield",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 1090,
+        "min": 1.39,
+        "max": 6.955,
+        "mean": 4.144759580246569,
+        "std": 1.0369771146637365
+      },
+      {
+        "name": "Latitude",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 165,
+        "min": 24.87,
+        "max": 26.98,
+        "mean": 25.853809105290914,
+        "std": 0.5803551395700544
+      },
+      {
+        "name": "Longitude",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 218,
+        "min": 83.4,
+        "max": 86.97,
+        "mean": 84.78274564949903,
+        "std": 1.0107290395787356
+      }
+    ]
+  },
+  "dataset_4": {
+    "name": "ICRISAT District-Level",
+    "filepath": "agri-fuse/data/raw/icrisat/icrisat_district_level_1990_2015.xls",
+    "rows": 12803,
+    "columns": 107,
+    "missing_total": 38335,
+    "missing_pct": 2.7983,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "Dist Code",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 560,
+        "min": 1.0,
+        "max": 2060.0,
+        "mean": 496.80317113176596,
+        "std": 434.5934773413753
+      },
+      {
+        "name": "Year",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 26,
+        "min": 1990.0,
+        "max": 2015.0,
+        "mean": 2003.2632976646098,
+        "std": 7.378508375262664
+      },
+      {
+        "name": "State Code",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 20,
+        "min": 1.0,
+        "max": 20.0,
+        "mean": 9.536046239162696,
+        "std": 5.065391136534817
+      },
+      {
+        "name": "State Name",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 20,
+        "sample_categories": [
+          "Chhattisgarh",
+          "Madhya Pradesh",
+          "Andhra Pradesh",
+          "Telangana",
+          "Karnataka"
+        ]
+      },
+      {
+        "name": "Dist Name",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 555,
+        "sample_categories": [
+          "Durg",
+          "Bastar",
+          "Raipur",
+          "Bilaspur",
+          "Raigarh"
+        ]
+      },
+      {
+        "name": "RICE AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 52,
+        "missing_pct": 0.406,
+        "unique_values": 7638,
+        "min": 0.0,
+        "max": 918.5999755859375,
+        "mean": 84.99034503151151,
+        "std": 100.41532374333312
+      },
+      {
+        "name": "RICE PRODUCTION (1000 tons)",
+        "dtype": "float64",
+        "missing_count": 50,
+        "missing_pct": 0.391,
+        "unique_values": 8670,
+        "min": 0.0,
+        "max": 2145.2900390625,
+        "mean": 176.83728531729054,
+        "std": 247.18252570040943
+      },
+      {
+        "name": "RICE YIELD (Kg per ha)",
+        "dtype": "float64",
+        "missing_count": 52,
+        "missing_pct": 0.406,
+        "unique_values": 3642,
+        "min": 0.0,
+        "max": 9750.0,
+        "mean": 1808.7009646302251,
+        "std": 1048.5940356076849
+      },
+      {
+        "name": "PEARL MILLET AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 688,
+        "missing_pct": 5.374,
+        "unique_values": 2679,
+        "min": 0.0,
+        "max": 1032.510009765625,
+        "mean": 19.946713179049016,
+        "std": 70.61397943905014
+      },
+      {
+        "name": "PEARL MILLET PRODUCTION (1000 tons)",
+        "dtype": "float64",
+        "missing_count": 684,
+        "missing_pct": 5.342,
+        "unique_values": 2641,
+        "min": 0.0,
+        "max": 826.8200073242188,
+        "mean": 17.231978708262144,
+        "std": 53.278093863802674
+      },
+      {
+        "name": "PEARL MILLET YIELD (Kg per ha)",
+        "dtype": "float64",
+        "missing_count": 689,
+        "missing_pct": 5.382,
+        "unique_values": 2033,
+        "min": 0.0,
+        "max": 6316.0,
+        "mean": 619.3305266633647,
+        "std": 706.9732515806573
+      },
+      {
+        "name": "CHICKPEA AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 43,
+        "missing_pct": 0.336,
+        "unique_values": 3049,
+        "min": 0.0,
+        "max": 545.2899780273438,
+        "mean": 14.84228212201273,
+        "std": 33.28241424197192
+      },
+      {
+        "name": "CHICKPEA PRODUCTION (1000 tons)",
+        "dtype": "float64",
+        "missing_count": 61,
+        "missing_pct": 0.476,
+        "unique_values": 2884,
+        "min": 0.0,
+        "max": 411.5799865722656,
+        "mean": 12.173475906547562,
+        "std": 28.346651454907274
+      },
+      {
+        "name": "CHICKPEA YIELD (Kg per ha)",
+        "dtype": "float64",
+        "missing_count": 61,
+        "missing_pct": 0.476,
+        "unique_values": 1542,
+        "min": 0.0,
+        "max": 4500.0,
+        "mean": 673.0615288023859,
+        "std": 439.0669729629348
+      },
+      {
+        "name": "GROUNDNUT AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 239,
+        "missing_pct": 1.867,
+        "unique_values": 2755,
+        "min": 0.0,
+        "max": 899.0399780273438,
+        "mean": 13.867819972287517,
+        "std": 52.87453074313675
+      },
+      {
+        "name": "GROUNDNUT PRODUCTION (1000 tons)",
+        "dtype": "float64",
+        "missing_count": 267,
+        "missing_pct": 2.085,
+        "unique_values": 2927,
+        "min": 0.0,
+        "max": 1390.06005859375,
+        "mean": 15.443545008989036,
+        "std": 59.62895041627458
+      },
+      {
+        "name": "GROUNDNUT YIELD (Kg per ha)",
+        "dtype": "float64",
+        "missing_count": 270,
+        "missing_pct": 2.109,
+        "unique_values": 2087,
+        "min": 0.0,
+        "max": 6466.0,
+        "mean": 821.5333120561717,
+        "std": 729.2378550878902
+      },
+      {
+        "name": "SUGARCANE AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 343,
+        "missing_pct": 2.679,
+        "unique_values": 2499,
+        "min": 0.0,
+        "max": 277.29998779296875,
+        "mean": 9.147399682853592,
+        "std": 25.298965836943818
+      },
+      {
+        "name": "SUGARCANE PRODUCTION (1000 tons)",
+        "dtype": "float64",
+        "missing_count": 319,
+        "missing_pct": 2.492,
+        "unique_values": 4579,
+        "min": 0.0,
+        "max": 2004.969970703125,
+        "mean": 61.53799345931895,
+        "std": 173.92918000491622
+      },
+      {
+        "name": "SUGARCANE YIELD (Kg per ha)",
+        "dtype": "float64",
+        "missing_count": 344,
+        "missing_pct": 2.687,
+        "unique_values": 5053,
+        "min": 0.0,
+        "max": 27139.0,
+        "mean": 4556.6046231639775,
+        "std": 3353.957244721517
+      },
+      {
+        "name": "GROSS CROPPED AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 445,
+        "missing_pct": 3.476,
+        "unique_values": 10490,
+        "min": 0.12999999523162842,
+        "max": 2050.89990234375,
+        "mean": 385.79419057217956,
+        "std": 278.74084007331754
+      },
+      {
+        "name": "NITROGEN CONSUMPTION (tons)",
+        "dtype": "float64",
+        "missing_count": 144,
+        "missing_pct": 1.125,
+        "unique_values": 10803,
+        "min": -1.0,
+        "max": 185345.0,
+        "mean": 25315.87534560392,
+        "std": 25108.27513765132
+      },
+      {
+        "name": "PHOSPHATE CONSUMPTION (tons)",
+        "dtype": "float64",
+        "missing_count": 144,
+        "missing_pct": 1.125,
+        "unique_values": 9206,
+        "min": -1.0,
+        "max": 112429.0,
+        "mean": 9842.660083734892,
+        "std": 10622.116635410739
+      },
+      {
+        "name": "POTASH CONSUMPTION (tons)",
+        "dtype": "float64",
+        "missing_count": 144,
+        "missing_pct": 1.125,
+        "unique_values": 6122,
+        "min": -1.0,
+        "max": 89841.0,
+        "mean": 3895.5489375148118,
+        "std": 6279.977515113637
+      },
+      {
+        "name": "TOTAL FERTILISER CONSUMPTION (tons)",
+        "dtype": "float64",
+        "missing_count": 144,
+        "missing_pct": 1.125,
+        "unique_values": 11311,
+        "min": -1.0,
+        "max": 337082.0,
+        "mean": 39054.11217315744,
+        "std": 38680.2660890833
+      },
+      {
+        "name": "TOTAL AGRICULTURAL LABOUR POPULATION (1000 Number)",
+        "dtype": "float64",
+        "missing_count": 11375,
+        "missing_pct": 88.846,
+        "unique_values": 1408,
+        "min": 0.0,
+        "max": 1227.9599609375,
+        "mean": 225.14226903549346,
+        "std": 194.05992508865845
+      },
+      {
+        "name": "GROSS IRRIGATED AREA (1000 ha)",
+        "dtype": "float64",
+        "missing_count": 1153,
+        "missing_pct": 9.006,
+        "unique_values": 8664,
+        "min": -1.0,
+        "max": 1219.5999755859375,
+        "mean": 158.65843177474315,
+        "std": 152.39627020136678
+      },
+      {
+        "name": "JANUARY MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 2058,
+        "min": -18.1200008392334,
+        "max": 35.79999923706055,
+        "mean": 24.78378190909748,
+        "std": 5.493640984191052
+      },
+      {
+        "name": "FEBRUARY MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1835,
+        "min": -17.209999084472656,
+        "max": 35.93000030517578,
+        "mean": 27.901144211209576,
+        "std": 5.329661091914481
+      },
+      {
+        "name": "MARCH MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1713,
+        "min": -13.239999771118164,
+        "max": 39.70000076293945,
+        "mean": 32.56560964124187,
+        "std": 5.003363288173162
+      },
+      {
+        "name": "APRIL MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1758,
+        "min": -5.329999923706055,
+        "max": 42.790000915527344,
+        "mean": 35.987033578887264,
+        "std": 4.800412226365641
+      },
+      {
+        "name": "MAY MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1883,
+        "min": 0.8999999761581421,
+        "max": 45.119998931884766,
+        "mean": 37.64015251757928,
+        "std": 4.961886930058322
+      },
+      {
+        "name": "JUNE MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1861,
+        "min": 7.03000020980835,
+        "max": 43.84000015258789,
+        "mean": 35.2645594773204,
+        "std": 4.348521646171119
+      },
+      {
+        "name": "JULY MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1640,
+        "min": 10.25,
+        "max": 41.31999969482422,
+        "mean": 31.5242370567789,
+        "std": 3.2825823637361973
+      },
+      {
+        "name": "AUGUST MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1488,
+        "min": 9.890000343322754,
+        "max": 38.939998626708984,
+        "mean": 30.86037375843134,
+        "std": 2.986427501096336
+      },
+      {
+        "name": "SEPTEMBER MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1410,
+        "min": 5.5,
+        "max": 38.4900016784668,
+        "mean": 31.13649624376512,
+        "std": 2.999501569656861
+      },
+      {
+        "name": "OCTOBER MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1480,
+        "min": 1.2899999618530273,
+        "max": 38.880001068115234,
+        "mean": 31.11556697094313,
+        "std": 3.4792330958144393
+      },
+      {
+        "name": "NOVEMBER MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1482,
+        "min": -6.070000171661377,
+        "max": 35.849998474121094,
+        "mean": 28.72903990468775,
+        "std": 3.8110860279429737
+      },
+      {
+        "name": "DECEMBER MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1701,
+        "min": -12.479999542236328,
+        "max": 33.40999984741211,
+        "mean": 25.839517189857283,
+        "std": 4.490536561840697
+      },
+      {
+        "name": "Winter JAN-FEB MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3115,
+        "min": -17.350000381469727,
+        "max": 34.404998779296875,
+        "mean": 26.342463065155368,
+        "std": 5.335380953786791
+      },
+      {
+        "name": "Summer MAR-MAY MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3593,
+        "min": -5.203333377838135,
+        "max": 42.106666564941406,
+        "mean": 35.39759858103314,
+        "std": 4.654585560316205
+      },
+      {
+        "name": "Rainy JUN-SEP MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3939,
+        "min": 9.167499542236328,
+        "max": 39.9474983215332,
+        "mean": 32.196416620339676,
+        "std": 3.2178630529228665
+      },
+      {
+        "name": "Autumn OCT-DEC MAXIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 2923,
+        "min": -5.429999828338623,
+        "max": 35.073333740234375,
+        "mean": 28.561374686696652,
+        "std": 3.7177347424773823
+      },
+      {
+        "name": "JANUARY MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 2146,
+        "min": -27.1299991607666,
+        "max": 25.520000457763672,
+        "mean": 11.580568155090253,
+        "std": 5.349011074984248
+      },
+      {
+        "name": "FEBRUARY MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1942,
+        "min": -27.420000076293945,
+        "max": 24.190000534057617,
+        "mean": 13.913090482620571,
+        "std": 5.021334205842368
+      },
+      {
+        "name": "MARCH MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1611,
+        "min": -21.639999389648438,
+        "max": 25.969999313354492,
+        "mean": 17.94511813763595,
+        "std": 4.3742341255078525
+      },
+      {
+        "name": "APRIL MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1434,
+        "min": -13.869999885559082,
+        "max": 28.010000228881836,
+        "mean": 22.24806638603617,
+        "std": 3.9233501074456525
+      },
+      {
+        "name": "MAY MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1424,
+        "min": -8.6899995803833,
+        "max": 31.15999984741211,
+        "mean": 25.315438960303624,
+        "std": 3.7352533747497816
+      },
+      {
+        "name": "JUNE MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1508,
+        "min": -2.259999990463257,
+        "max": 32.380001068115234,
+        "mean": 25.81839588880421,
+        "std": 3.4726079558614225
+      },
+      {
+        "name": "JULY MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1309,
+        "min": 1.25,
+        "max": 30.209999084472656,
+        "mean": 24.6688265517407,
+        "std": 2.9890173526242716
+      },
+      {
+        "name": "AUGUST MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1221,
+        "min": 0.800000011920929,
+        "max": 29.18000030517578,
+        "mean": 24.265784271556555,
+        "std": 2.895028758358907
+      },
+      {
+        "name": "SEPTEMBER MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1184,
+        "min": -3.109999895095825,
+        "max": 27.579999923706055,
+        "mean": 23.44146899313665,
+        "std": 2.936833213379394
+      },
+      {
+        "name": "OCTOBER MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1335,
+        "min": -10.779999732971191,
+        "max": 26.479999542236328,
+        "mean": 20.379405772447857,
+        "std": 3.264551011057797
+      },
+      {
+        "name": "NOVEMBER MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 1748,
+        "min": -15.850000381469727,
+        "max": 24.959999084472656,
+        "mean": 15.393538528076748,
+        "std": 4.121812869312667
+      },
+      {
+        "name": "DECEMBER MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 2029,
+        "min": -21.31999969482422,
+        "max": 24.649999618530273,
+        "mean": 12.005487159654022,
+        "std": 4.744576207205044
+      },
+      {
+        "name": "Winter JAN-FEB MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3456,
+        "min": -27.065000534057617,
+        "max": 24.155000686645508,
+        "mean": 12.746829314710642,
+        "std": 5.109680276891401
+      },
+      {
+        "name": "Summer MAR-MAY MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 2939,
+        "min": -13.866666793823242,
+        "max": 27.389999389648438,
+        "mean": 21.836207821651417,
+        "std": 3.8102467126226434
+      },
+      {
+        "name": "Rainy JUN-SEP MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3308,
+        "min": -0.7699999809265137,
+        "max": 28.522499084472656,
+        "mean": 24.548618919678997,
+        "std": 2.980629129305098
+      },
+      {
+        "name": "Autumn OCT-DEC MINIMUM TEMPERATURE (Centigrate)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3758,
+        "min": -15.34333324432373,
+        "max": 25.049999237060547,
+        "mean": 15.926143820305859,
+        "std": 3.868148346210357
+      },
+      {
+        "name": "JANUARY PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 4249,
+        "min": 0.0,
+        "max": 231.75,
+        "mean": 15.369307776167105,
+        "std": 23.021958604679476
+      },
+      {
+        "name": "FEBRUARY PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3934,
+        "min": 0.0,
+        "max": 329.3800048828125,
+        "mean": 14.267856176284663,
+        "std": 24.794947809970168
+      },
+      {
+        "name": "MARCH PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 4803,
+        "min": 0.0,
+        "max": 429.5299987792969,
+        "mean": 20.611062832026555,
+        "std": 32.81408406962626
+      },
+      {
+        "name": "APRIL PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5242,
+        "min": 0.0,
+        "max": 859.3300170898438,
+        "mean": 30.29553537796101,
+        "std": 57.590947326858235
+      },
+      {
+        "name": "MAY PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 6816,
+        "min": 0.0,
+        "max": 858.6599731445312,
+        "mean": 56.33253334688,
+        "std": 98.00575920665702
+      },
+      {
+        "name": "JUNE PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 10418,
+        "min": 0.23000000417232513,
+        "max": 3249.3701171875,
+        "mean": 161.5994065494876,
+        "std": 193.6482219368643
+      },
+      {
+        "name": "JULY PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 11341,
+        "min": 0.33000001311302185,
+        "max": 2663.510009765625,
+        "mean": 303.9529631135375,
+        "std": 236.27785750106182
+      },
+      {
+        "name": "AUGUST PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 11100,
+        "min": 2.740000009536743,
+        "max": 1837.6400146484375,
+        "mean": 273.3289000509097,
+        "std": 170.60396412143683
+      },
+      {
+        "name": "SEPTEMBER PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 10808,
+        "min": 1.1200000047683716,
+        "max": 1159.3599853515625,
+        "mean": 194.56210269002,
+        "std": 118.64789302598157
+      },
+      {
+        "name": "OCTOBER PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 8608,
+        "min": 0.0,
+        "max": 713.280029296875,
+        "mean": 84.2279091552153,
+        "std": 98.12129494301591
+      },
+      {
+        "name": "NOVEMBER PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 4437,
+        "min": 0.0,
+        "max": 679.3300170898438,
+        "mean": 27.05229078959681,
+        "std": 61.38409950346328
+      },
+      {
+        "name": "DECEMBER PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 3045,
+        "min": 0.0,
+        "max": 495.5899963378906,
+        "mean": 11.240866842911572,
+        "std": 31.68299407029966
+      },
+      {
+        "name": "Winter JAN-FEB PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5768,
+        "min": 0.0,
+        "max": 254.05999755859375,
+        "mean": 14.81858198200207,
+        "std": 20.32164737547677
+      },
+      {
+        "name": "Summer MAR-MAY PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 9044,
+        "min": 0.0,
+        "max": 535.0833129882812,
+        "mean": 35.746377200608485,
+        "std": 54.01905771588299
+      },
+      {
+        "name": "Rainy JUN-SEP PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 12141,
+        "min": 4.03249979019165,
+        "max": 1518.0350341796875,
+        "mean": 233.36084313488723,
+        "std": 145.39616358443726
+      },
+      {
+        "name": "Autumn OCT-DEC PERCIPITATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 9464,
+        "min": 0.0,
+        "max": 544.8200073242188,
+        "mean": 40.840355581122864,
+        "std": 53.53295687822102
+      },
+      {
+        "name": "JANUARY ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5872,
+        "min": 0.0,
+        "max": 130.24000549316406,
+        "mean": 31.654727782268875,
+        "std": 20.477717202110206
+      },
+      {
+        "name": "FEBRUARY ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5772,
+        "min": 0.0,
+        "max": 131.10000610351562,
+        "mean": 29.133497432452423,
+        "std": 20.751851053988275
+      },
+      {
+        "name": "MARCH ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 6416,
+        "min": 0.0,
+        "max": 164.92999267578125,
+        "mean": 33.04511657391142,
+        "std": 28.39637150877987
+      },
+      {
+        "name": "APRIL ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 6208,
+        "min": 0.0,
+        "max": 154.75,
+        "mean": 33.228182536138846,
+        "std": 36.01942320742047
+      },
+      {
+        "name": "MAY ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 7081,
+        "min": 0.14000000059604645,
+        "max": 197.58999633789062,
+        "mean": 44.460263133695456,
+        "std": 44.20085453344606
+      },
+      {
+        "name": "JUNE ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 8821,
+        "min": 0.2199999988079071,
+        "max": 196.5,
+        "mean": 93.87286453880796,
+        "std": 47.35673343554826
+      },
+      {
+        "name": "JULY ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 6115,
+        "min": 0.3100000023841858,
+        "max": 174.80999755859375,
+        "mean": 114.33370760945829,
+        "std": 26.406866379473698
+      },
+      {
+        "name": "AUGUST ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 4999,
+        "min": 2.609999895095825,
+        "max": 174.92999267578125,
+        "mean": 110.57422914570944,
+        "std": 20.03621719890244
+      },
+      {
+        "name": "SEPTEMBER ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5271,
+        "min": 1.1200000047683716,
+        "max": 167.08999633789062,
+        "mean": 106.3772216437316,
+        "std": 21.50871874170104
+      },
+      {
+        "name": "OCTOBER ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 7076,
+        "min": 0.0,
+        "max": 147.72000122070312,
+        "mean": 82.73088502508998,
+        "std": 29.428737564735417
+      },
+      {
+        "name": "NOVEMBER ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 6663,
+        "min": 0.0,
+        "max": 123.2699966430664,
+        "mean": 47.07634925638623,
+        "std": 26.84884120788034
+      },
+      {
+        "name": "DECEMBER ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 5793,
+        "min": 0.0,
+        "max": 124.0,
+        "mean": 32.01302726700084,
+        "std": 22.863744245958827
+      },
+      {
+        "name": "Winter JAN-FEB ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 8031,
+        "min": 0.0,
+        "max": 108.27999877929688,
+        "mean": 30.394112601988414,
+        "std": 19.427029973732004
+      },
+      {
+        "name": "Summer MAR-MAY ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 9782,
+        "min": 0.1666666716337204,
+        "max": 147.5800018310547,
+        "mean": 36.91118742435499,
+        "std": 31.430293416849015
+      },
+      {
+        "name": "Rainy JUN-SEP ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 9708,
+        "min": 3.827500104904175,
+        "max": 148.32749938964844,
+        "mean": 106.2895057350974,
+        "std": 19.970448403185532
+      },
+      {
+        "name": "Autumn OCT-DEC ACTUAL EVAPOTRANSPIRATION (Millimeters)",
+        "dtype": "float64",
+        "missing_count": 148,
+        "missing_pct": 1.156,
+        "unique_values": 9707,
+        "min": 0.05000000074505806,
+        "max": 127.663330078125,
+        "mean": 53.9400871749227,
+        "std": 24.442336525215623
+      },
+      {
+        "name": "JAN WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2083,
+        "min": 0.14800000190734863,
+        "max": 3.937000036239624,
+        "mean": 1.0944125229329997,
+        "std": 0.4816441445697499
+      },
+      {
+        "name": "FEB WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 1905,
+        "min": 0.37299999594688416,
+        "max": 4.09499979019165,
+        "mean": 1.2583603994468806,
+        "std": 0.419036315606407
+      },
+      {
+        "name": "MARCH WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 1849,
+        "min": 0.5799999833106995,
+        "max": 4.054999828338623,
+        "mean": 1.430721295066024,
+        "std": 0.3912949552802471
+      },
+      {
+        "name": "APRIL WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 1919,
+        "min": 0.34700000286102295,
+        "max": 4.9039998054504395,
+        "mean": 1.6261918059109106,
+        "std": 0.4120163936921314
+      },
+      {
+        "name": "MAY WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2448,
+        "min": 0.4970000088214874,
+        "max": 4.783999919891357,
+        "mean": 2.008659920703965,
+        "std": 0.5338751543871982
+      },
+      {
+        "name": "JUNE WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2907,
+        "min": 0.4099999964237213,
+        "max": 4.764999866485596,
+        "mean": 2.1492261700658353,
+        "std": 0.6818028613121078
+      },
+      {
+        "name": "JULY WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2983,
+        "min": 0.5799999833106995,
+        "max": 5.607999801635742,
+        "mean": 2.0256485212603503,
+        "std": 0.7780290957300825
+      },
+      {
+        "name": "AUG WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2737,
+        "min": 0.34299999475479126,
+        "max": 4.665999889373779,
+        "mean": 1.6589079792689,
+        "std": 0.6831940119748554
+      },
+      {
+        "name": "SEPT WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2393,
+        "min": 0.32100000977516174,
+        "max": 4.0920000076293945,
+        "mean": 1.3732589620628495,
+        "std": 0.5770645808488118
+      },
+      {
+        "name": "OCT WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 1855,
+        "min": 0.20999999344348907,
+        "max": 3.4030001163482666,
+        "mean": 0.9755693870340716,
+        "std": 0.41390899136741677
+      },
+      {
+        "name": "NOV WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2040,
+        "min": 0.013000000268220901,
+        "max": 3.7269999980926514,
+        "mean": 0.8649370563760407,
+        "std": 0.469583762397482
+      },
+      {
+        "name": "DEC WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 2118,
+        "min": 0.12700000405311584,
+        "max": 4.269000053405762,
+        "mean": 0.8796631424791966,
+        "std": 0.5086945994591869
+      },
+      {
+        "name": "Winter JAN-FEB WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 3277,
+        "min": 0.2669999897480011,
+        "max": 3.883500099182129,
+        "mean": 1.1763864610828527,
+        "std": 0.4340768302222387
+      },
+      {
+        "name": "Summer MAR-MAY WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 4348,
+        "min": 0.6809999942779541,
+        "max": 3.693333387374878,
+        "mean": 1.6885243403050951,
+        "std": 0.39891880643290545
+      },
+      {
+        "name": "Rainy JUN-SEP WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 6537,
+        "min": 0.5525000095367432,
+        "max": 4.64300012588501,
+        "mean": 1.8017604082955736,
+        "std": 0.6374958103542384
+      },
+      {
+        "name": "Autumn OCT-DEC WINDSPEED (Meter per second)",
+        "dtype": "float64",
+        "missing_count": 697,
+        "missing_pct": 5.444,
+        "unique_values": 4173,
+        "min": 0.17100000381469727,
+        "max": 3.3436665534973145,
+        "mean": 0.9067231952533552,
+        "std": 0.4401673427079018
+      }
+    ]
+  },
+  "dataset_5": {
+    "name": "Smart Farming Data 2024 (SF24)",
+    "filepath": "agri-fuse/data/raw/sf24/Crop_recommendationV2.csv",
+    "rows": 2200,
+    "columns": 23,
+    "missing_total": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "N",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 137,
+        "min": 0.0,
+        "max": 140.0,
+        "mean": 50.551818181818184,
+        "std": 36.9173338337566
+      },
+      {
+        "name": "P",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 117,
+        "min": 5.0,
+        "max": 145.0,
+        "mean": 53.36272727272727,
+        "std": 32.98588273858715
+      },
+      {
+        "name": "K",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 73,
+        "min": 5.0,
+        "max": 205.0,
+        "mean": 48.14909090909091,
+        "std": 50.64793054666013
+      },
+      {
+        "name": "temperature",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 8.825674745,
+        "max": 43.67549305,
+        "mean": 25.616243851779544,
+        "std": 5.063748599958843
+      },
+      {
+        "name": "humidity",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 14.25803981,
+        "max": 99.98187601,
+        "mean": 71.48177921778637,
+        "std": 22.263811589761083
+      },
+      {
+        "name": "ph",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 3.504752314,
+        "max": 9.93509073,
+        "mean": 6.469480065256364,
+        "std": 0.7739376880298733
+      },
+      {
+        "name": "rainfall",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 20.21126747,
+        "max": 298.5601175,
+        "mean": 103.46365541576817,
+        "std": 54.95838852487813
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 22,
+        "sample_categories": [
+          "rice",
+          "maize",
+          "chickpea",
+          "kidneybeans",
+          "pigeonpeas"
+        ]
+      },
+      {
+        "name": "soil_moisture",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 10.02426042785048,
+        "max": 29.997859652841264,
+        "mean": 20.151387783041407,
+        "std": 5.793719825239102
+      },
+      {
+        "name": "soil_type",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 1.9913636363636364,
+        "std": 0.8122627429411112
+      },
+      {
+        "name": "sunlight_exposure",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 5.000710080682302,
+        "max": 11.991041166034698,
+        "mean": 8.570609495563405,
+        "std": 1.9993817872999582
+      },
+      {
+        "name": "wind_speed",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 0.0028699831011058,
+        "max": 19.991293973622305,
+        "mean": 10.17093885817257,
+        "std": 5.73903777007818
+      },
+      {
+        "name": "co2_concentration",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 350.0013849350592,
+        "max": 449.9843895315361,
+        "mean": 399.64751350670343,
+        "std": 28.447147913464036
+      },
+      {
+        "name": "organic_matter",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 1.003337922269687,
+        "max": 9.99999015034425,
+        "mean": 5.465652199586001,
+        "std": 2.6052935281651872
+      },
+      {
+        "name": "irrigation_frequency",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 6,
+        "min": 1.0,
+        "max": 6.0,
+        "mean": 3.515,
+        "std": 1.6979115384913503
+      },
+      {
+        "name": "crop_density",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 5.004340767425479,
+        "max": 19.98847424770599,
+        "mean": 12.344959053442928,
+        "std": 4.2974942706777925
+      },
+      {
+        "name": "pest_pressure",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 0.0381033382592321,
+        "max": 99.98384949755518,
+        "mean": 49.85070135723414,
+        "std": 28.88635399818157
+      },
+      {
+        "name": "fertilizer_usage",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 50.20999036684216,
+        "max": 199.98216584521697,
+        "mean": 125.84640340800853,
+        "std": 43.56452702442878
+      },
+      {
+        "name": "growth_stage",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 1.9995454545454545,
+        "std": 0.818998919048001
+      },
+      {
+        "name": "urban_area_proximity",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 0.0177564878703462,
+        "max": 49.99204584876098,
+        "mean": 24.801013046010638,
+        "std": 14.523975265860361
+      },
+      {
+        "name": "water_source_type",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "min": 1.0,
+        "max": 3.0,
+        "mean": 2.0036363636363634,
+        "std": 0.8120205680595505
+      },
+      {
+        "name": "frost_risk",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 0.0549113208661022,
+        "max": 99.95727435075142,
+        "mean": 50.30470097952757,
+        "std": 28.580352145555405
+      },
+      {
+        "name": "water_usage_efficiency",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 2200,
+        "min": 1.002106323932241,
+        "max": 4.9971303231714455,
+        "mean": 2.9902682170774653,
+        "std": 1.1396368207292615
+      }
+    ]
+  },
+  "dataset_6": {
+    "name": "Smart Farming IoT",
+    "filepath": "agri-fuse/data/raw/smart_farming_iot/Smart_Farming_Crop_Yield_2024.csv",
+    "rows": 500,
+    "columns": 22,
+    "missing_total": 280,
+    "missing_pct": 2.5455,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "farm_id",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 500,
+        "sample_categories": [
+          "FARM0001",
+          "FARM0002",
+          "FARM0003",
+          "FARM0004",
+          "FARM0005"
+        ]
+      },
+      {
+        "name": "region",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "sample_categories": [
+          "North India",
+          "South USA",
+          "Central USA",
+          "East Africa",
+          "South India"
+        ]
+      },
+      {
+        "name": "crop_type",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 5,
+        "sample_categories": [
+          "Wheat",
+          "Soybean",
+          "Maize",
+          "Cotton",
+          "Rice"
+        ]
+      },
+      {
+        "name": "soil_moisture_%",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 475,
+        "min": 10.16,
+        "max": 44.98,
+        "mean": 26.75014,
+        "std": 10.150053189017276
+      },
+      {
+        "name": "soil_pH",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 184,
+        "min": 5.51,
+        "max": 7.5,
+        "mean": 6.52398,
+        "std": 0.5855582948206494
+      },
+      {
+        "name": "temperature_C",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 448,
+        "min": 15.0,
+        "max": 34.84,
+        "mean": 24.675739999999998,
+        "std": 5.348898567384535
+      },
+      {
+        "name": "rainfall_mm",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 496,
+        "min": 50.17,
+        "max": 298.96,
+        "mean": 181.68573999999998,
+        "std": 72.29309149156103
+      },
+      {
+        "name": "humidity_%",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 481,
+        "min": 40.23,
+        "max": 90.0,
+        "mean": 65.19446,
+        "std": 14.642849134302377
+      },
+      {
+        "name": "sunlight_hours",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 332,
+        "min": 4.01,
+        "max": 10.0,
+        "mean": 7.030139999999999,
+        "std": 1.691670440173355
+      },
+      {
+        "name": "irrigation_type",
+        "dtype": "str",
+        "missing_count": 150,
+        "missing_pct": 30.0,
+        "unique_values": 3,
+        "sample_categories": [
+          "Sprinkler",
+          "Drip",
+          "Manual"
+        ]
+      },
+      {
+        "name": "fertilizer_type",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 3,
+        "sample_categories": [
+          "Organic",
+          "Inorganic",
+          "Mixed"
+        ]
+      },
+      {
+        "name": "pesticide_usage_ml",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 469,
+        "min": 5.05,
+        "max": 49.94,
+        "mean": 26.58698,
+        "std": 13.202429343144445
+      },
+      {
+        "name": "sowing_date",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 84,
+        "sample_categories": [
+          "2024-01-08",
+          "2024-02-04",
+          "2024-02-03",
+          "2024-02-21",
+          "2024-02-05"
+        ]
+      },
+      {
+        "name": "harvest_date",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 123,
+        "sample_categories": [
+          "2024-05-09",
+          "2024-05-26",
+          "2024-06-26",
+          "2024-07-04",
+          "2024-05-20"
+        ]
+      },
+      {
+        "name": "total_days",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 61,
+        "min": 90.0,
+        "max": 150.0,
+        "mean": 119.496,
+        "std": 16.798045501347193
+      },
+      {
+        "name": "yield_kg_per_hectare",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 500,
+        "min": 2023.56,
+        "max": 5998.29,
+        "mean": 4032.92694,
+        "std": 1174.4330399391179
+      },
+      {
+        "name": "sensor_id",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 500,
+        "sample_categories": [
+          "SENS0001",
+          "SENS0002",
+          "SENS0003",
+          "SENS0004",
+          "SENS0005"
+        ]
+      },
+      {
+        "name": "timestamp",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 172,
+        "sample_categories": [
+          "2024-03-19",
+          "2024-04-21",
+          "2024-02-28",
+          "2024-05-14",
+          "2024-04-13"
+        ]
+      },
+      {
+        "name": "latitude",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 500,
+        "min": 10.004243,
+        "max": 34.981531,
+        "mean": 22.442473114000002,
+        "std": 7.2834917836731154
+      },
+      {
+        "name": "longitude",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 500,
+        "min": 70.020021,
+        "max": 89.991901,
+        "mean": 80.39224751399999,
+        "std": 5.91066411534551
+      },
+      {
+        "name": "NDVI_index",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 61,
+        "min": 0.3,
+        "max": 0.9,
+        "mean": 0.6020599999999999,
+        "std": 0.17540207574698968
+      },
+      {
+        "name": "crop_disease_status",
+        "dtype": "str",
+        "missing_count": 130,
+        "missing_pct": 26.0,
+        "unique_values": 3,
+        "sample_categories": [
+          "Mild",
+          "Severe",
+          "Moderate"
+        ]
+      }
+    ]
+  },
+  "dataset_7": {
+    "name": "Soil Nutrients",
+    "filepath": "agri-fuse/data/raw/soil_nutrients/dataset.csv",
+    "rows": 620,
+    "columns": 12,
+    "missing_total": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "N",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 135,
+        "min": 30.0,
+        "max": 198.0,
+        "mean": 135.7016129032258,
+        "std": 31.80808257254747
+      },
+      {
+        "name": "P",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 90,
+        "min": 10.0,
+        "max": 100.0,
+        "mean": 52.50806451612903,
+        "std": 24.67353757911262
+      },
+      {
+        "name": "K",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 238,
+        "min": 51.0,
+        "max": 369.0,
+        "mean": 161.4016129032258,
+        "std": 81.28577997702612
+      },
+      {
+        "name": "ph",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 36,
+        "min": 4.5,
+        "max": 8.0,
+        "mean": 6.106290322580644,
+        "std": 0.6937820626620613
+      },
+      {
+        "name": "EC",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 210,
+        "min": 0.01,
+        "max": 2.48,
+        "mean": 0.8854677419354838,
+        "std": 0.6372142070339792
+      },
+      {
+        "name": "S",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 314,
+        "min": 0.0111,
+        "max": 113.2,
+        "mean": 0.4840848870967742,
+        "std": 5.775388452880445
+      },
+      {
+        "name": "Cu",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 469,
+        "min": 0.18,
+        "max": 35.0,
+        "mean": 17.315451612903225,
+        "std": 6.441150316889301
+      },
+      {
+        "name": "Fe",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 554,
+        "min": 3.81,
+        "max": 276.72,
+        "mean": 117.2125,
+        "std": 62.77519909973451
+      },
+      {
+        "name": "Mn",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 604,
+        "min": 20.58,
+        "max": 1572.54,
+        "mean": 219.9058870967742,
+        "std": 341.99879331904594
+      },
+      {
+        "name": "Zn",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 574,
+        "min": 17.99,
+        "max": 70.0,
+        "mean": 34.34083870967742,
+        "std": 11.543871067835491
+      },
+      {
+        "name": "B",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 586,
+        "min": 1.02,
+        "max": 74.56,
+        "mean": 28.75070967741935,
+        "std": 19.636447035070624
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 6,
+        "sample_categories": [
+          "pomegranate",
+          "mango",
+          "grapes",
+          "mulberry",
+          "ragi"
+        ]
+      }
+    ]
+  },
+  "dataset_9": {
+    "name": "AgriYield 2025",
+    "filepath": "agri-fuse/data/raw/agriyield/train.csv",
+    "rows": 10000,
+    "columns": 9,
+    "missing_total": 0,
+    "missing_pct": 0.0,
+    "duplicates": 0,
+    "column_details": [
+      {
+        "name": "field_id",
+        "dtype": "str",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 10000,
+        "sample_categories": [
+          "F00001",
+          "F00002",
+          "F00003",
+          "F00004",
+          "F00005"
+        ]
+      },
+      {
+        "name": "soil_ph",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 201,
+        "min": 5.5,
+        "max": 7.5,
+        "mean": 6.508556,
+        "std": 0.5799586623794897
+      },
+      {
+        "name": "organic_matter",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 251,
+        "min": 1.5,
+        "max": 4.0,
+        "mean": 2.748447,
+        "std": 0.7176449676692244
+      },
+      {
+        "name": "sand_pct",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 301,
+        "min": 30.0,
+        "max": 60.0,
+        "mean": 44.95785,
+        "std": 8.652910473561272
+      },
+      {
+        "name": "temperature",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 61,
+        "min": 24.0,
+        "max": 30.0,
+        "mean": 26.993919999999996,
+        "std": 1.7368473443195136
+      },
+      {
+        "name": "humidity",
+        "dtype": "int64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 20,
+        "min": 65.0,
+        "max": 84.0,
+        "mean": 74.5234,
+        "std": 5.775100658755817
+      },
+      {
+        "name": "rainfall",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 801,
+        "min": 100.0,
+        "max": 180.0,
+        "mean": 140.03385,
+        "std": 23.026793708641897
+      },
+      {
+        "name": "ndvi",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 36,
+        "min": 0.4,
+        "max": 0.75,
+        "mean": 0.574883,
+        "std": 0.1001684066059164
+      },
+      {
+        "name": "yield",
+        "dtype": "float64",
+        "missing_count": 0,
+        "missing_pct": 0.0,
+        "unique_values": 7276,
+        "min": 3500.2,
+        "max": 5000.0,
+        "mean": 4251.9764,
+        "std": 436.5331090909065
+      }
+    ]
+  }
+}

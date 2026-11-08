@@ -1,0 +1,13 @@
+{
+  "dataset": "Indian Crop Yield (D2)",
+  "task": "B1_Macro_Crop_Yield",
+  "split_method": "Chronological (Train <= 2016, Val: 2017-2018, Test: 2019-2020)",
+  "train_years": "1997-2016",
+  "val_years": "2017-2018",
+  "test_years": "2019-2020",
+  "train_samples": 16440,
+  "val_samples": 2133,
+  "test_samples": 1116,
+  "total_samples": 19689,
+  "leakage_audit": "Strict chronological partition preventing temporal lookahead."
+}

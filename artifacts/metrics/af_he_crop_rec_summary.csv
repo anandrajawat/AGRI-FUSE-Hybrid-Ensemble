@@ -1,0 +1,2 @@
+task,best_single_model,best_single_accuracy,best_single_macro_f1,af_he_stacking_accuracy,af_he_stacking_macro_f1,accuracy_improvement,f1_improvement,brier_score,total_training_time_sec
+Crop Recommendation (D1),CatBoost,1.0,1.0,0.997,0.997,-0.0030000000000000027,-0.0030000000000000027,0.005539536445939391,30.67649531364441

@@ -1,0 +1,2 @@
+task,best_single_model,best_single_r2,best_single_mae,af_he_stacking_r2,af_he_stacking_mae,r2_improvement,mae_reduction,conformal_coverage,total_training_time_sec
+Field-Level Wheat (D3),XGBoost,0.6754,0.4276,0.6763,0.4273,0.0009000000000000119,0.00029999999999996696,0.9004683840749415,39.371946811676025

@@ -1,0 +1,6 @@
+mae,rmse,r2,mbe,mape_pct,model_name,training_time_sec,latency_ms_per_sample,task
+280.738,455.1253,0.795,-204.4558,13.84,RandomForest,0.524,0.008,Task_B2_ICRISAT_Rice_Yield
+304.6901,454.5844,0.7955,-220.4333,16.07,ExtraTrees,0.177,0.008,Task_B2_ICRISAT_Rice_Yield
+187.9661,302.4861,0.9094,-101.959,9.54,LightGBM,0.417,0.001,Task_B2_ICRISAT_Rice_Yield
+307.9508,436.6887,0.8113,-170.0396,16.47,CatBoost,0.116,0.0,Task_B2_ICRISAT_Rice_Yield
+567.6361,783.61,0.3922,-193.0182,37.66,Ridge,0.001,0.0,Task_B2_ICRISAT_Rice_Yield

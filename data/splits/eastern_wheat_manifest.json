@@ -1,0 +1,13 @@
+{
+  "dataset": "Eastern India Wheat Field Dataset (D3)",
+  "task": "C1_Field_Level_Wheat_Yield",
+  "split_method": "GroupShuffleSplit by Field_ID (70/15/15)",
+  "random_state": 42,
+  "train_samples": 3982,
+  "val_samples": 853,
+  "test_samples": 854,
+  "train_unique_fields": 3982,
+  "val_unique_fields": 853,
+  "test_unique_fields": 854,
+  "leakage_audit": "Field_ID disjointness strictly verified across train, val, and test."
+}

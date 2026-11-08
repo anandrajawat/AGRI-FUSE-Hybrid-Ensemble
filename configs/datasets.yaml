@@ -1,0 +1,89 @@
+# Master Datasets Configuration for AGRI-FUSE Platform
+datasets:
+  crop_recommendation:
+    id: D1
+    name: "Crop Recommendation Dataset"
+    path: "agri-fuse/data/raw/crop_recommendation/Crop_recommendation.csv"
+    format: csv
+    target: "label"
+    task: "multi_class_classification"
+    modalities: ["soil", "environment"]
+    
+  indian_crop_yield:
+    id: D2
+    name: "Indian Crop Yield Dataset"
+    path: "agri-fuse/data/raw/indian_crop_yield/crop_yield.csv"
+    format: csv
+    target: "Yield"
+    unit: "tonnes/ha"
+    task: "regression"
+    temporal_col: "Crop_Year"
+    modalities: ["soil_management", "environment", "context"]
+    
+  eastern_wheat:
+    id: D3
+    name: "Eastern India Wheat Field Dataset"
+    path: "agri-fuse/data/raw/eastern_wheat/Wheat_Yld_Eastern_IND_Data.xlsx"
+    format: excel
+    target: "GrainYield"
+    unit: "tonnes/ha"
+    group_col: "Field_ID"
+    task: "regression"
+    modalities: ["soil_management", "environment", "context"]
+    
+  icrisat:
+    id: D4
+    name: "ICRISAT District-Level Dataset"
+    path: "agri-fuse/data/raw/icrisat/icrisat_district_level_1990_2015.xls"
+    format: excel
+    target: "RICE YIELD (Kg per ha)"
+    unit: "kg/ha"
+    temporal_col: "Year"
+    task: "regression"
+    modalities: ["context", "environment", "management"]
+    
+  sf24:
+    id: D5
+    name: "Smart Farming Data 2024 (SF24)"
+    path: "agri-fuse/data/raw/sf24/Crop_recommendationV2.csv"
+    format: csv
+    target: "label"
+    task: "synthetic_comparative_benchmark"
+    notes: "Augmented extension of D1"
+    
+  smart_farming_iot:
+    id: D6
+    name: "Smart Farming IoT Dataset"
+    path: "agri-fuse/data/raw/smart_farming_iot/Smart_Farming_Crop_Yield_2024.csv"
+    format: csv
+    regression_target: "yield_kg_per_hectare"
+    classification_target: "crop_type"
+    group_col: "farm_id"
+    modalities: ["soil", "environment", "iot", "context", "satellite"]
+    
+  soil_nutrients:
+    id: D7
+    name: "Soil Nutrient Dataset"
+    path: "agri-fuse/data/raw/soil_nutrients/dataset.csv"
+    format: csv
+    target: "label"
+    task: "multi_class_classification"
+    modalities: ["soil"]
+    
+  satellite_indices_d8:
+    id: D8
+    name: "ML Competition 1 Satellite Indices"
+    status: "inaccessible_404"
+    url: "https://www.kaggle.com/competitions/kaggle-cup-2025-01/data"
+    
+  agriyield:
+    id: D9
+    name: "AgriYield 2025"
+    path: "agri-fuse/data/raw/agriyield/train.csv"
+    format: csv
+    target: "yield"
+    unit: "kg/ha"
+    group_col: "field_id"
+    task: "regression"
+    modalities: ["soil", "environment", "satellite"]
+

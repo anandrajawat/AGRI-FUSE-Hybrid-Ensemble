@@ -1,0 +1,13 @@
+{
+  "dataset": "Smart Farming IoT Dataset (D6)",
+  "task": "D1_IoT_Yield_and_Crop_Classification",
+  "split_method": "GroupShuffleSplit by farm_id (70/15/15)",
+  "random_state": 42,
+  "train_samples": 350,
+  "val_samples": 75,
+  "test_samples": 75,
+  "train_farms": 350,
+  "val_farms": 75,
+  "test_farms": 75,
+  "leakage_audit": "Disjoint farm partition preventing enterprise memorization."
+}

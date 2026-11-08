@@ -1,0 +1,12 @@
+{
+  "task_type": "regression",
+  "n_splits": 5,
+  "random_state": 42,
+  "base_model_names": [
+    "RF",
+    "XGBoost",
+    "CatBoost",
+    "AGRI_FUSE"
+  ],
+  "is_fitted": true
+}

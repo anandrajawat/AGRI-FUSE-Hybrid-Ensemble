@@ -1,0 +1,15 @@
+accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,ablation_id,models_included,ensemble_strategy,task_id
+0.9785,0.9798,0.9792,0.9788,0.9785,1. Random Forest alone,RF,single,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,2. XGBoost alone,XGBoost,single,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,3. CatBoost alone,CatBoost,single,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9785,0.9788,0.9785,4. AGRI-FUSE alone,AGRI_FUSE,single,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,5. RF + XGBoost,RF+XGBoost,average,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,6. RF + CatBoost,RF+CatBoost,average,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,7. XGBoost + CatBoost,XGBoost+CatBoost,average,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,8. AGRI-FUSE + RF,AGRI_FUSE+RF,average,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,9. AGRI-FUSE + XGBoost,AGRI_FUSE+XGBoost,average,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,10. AGRI-FUSE + CatBoost,AGRI_FUSE+CatBoost,average,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,11. All 4 Simple Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,simple_avg,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,12. All 4 Weighted Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,weighted_avg,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,13. All 4 Stacking (AF-HE Stacked Fusion),RF+XGBoost+CatBoost+AGRI_FUSE,stacking,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,14. All 4 Adaptive Reliability Weighting,RF+XGBoost+CatBoost+AGRI_FUSE,adaptive,Task_A3_Soil_Suitability

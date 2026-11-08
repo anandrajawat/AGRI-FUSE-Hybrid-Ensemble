@@ -1,0 +1,89 @@
+# Task Definitions and Pipeline Routing for AGRI-FUSE Platform
+tasks:
+  pipeline_a:
+    name: "Pipeline A: Crop Recommendation"
+    tasks:
+      - id: "task_a1"
+        name: "Crop Recommendation Classification"
+        dataset: "D1 (Crop Recommendation)"
+        type: "multi_class_classification"
+        num_classes: 22
+        eval_metrics: ["accuracy", "macro_f1", "weighted_f1", "confusion_matrix"]
+        
+      - id: "task_a2"
+        name: "SF24 Synthetic Comparison Benchmark"
+        dataset: "D5 (SF24)"
+        type: "synthetic_comparative_benchmark"
+        num_classes: 22
+        
+      - id: "task_a3"
+        name: "Soil Nutrient Suitability Profiling"
+        dataset: "D7 (Soil Nutrients)"
+        type: "multi_class_classification"
+        num_classes: 10
+        eval_metrics: ["accuracy", "macro_f1", "weighted_f1"]
+
+  pipeline_b:
+    name: "Pipeline B: Historical Macro Crop Yield"
+    tasks:
+      - id: "task_b1"
+        name: "Indian Crop Yield Regression"
+        dataset: "D2 (Indian Crop Yield)"
+        type: "continuous_regression"
+        target_unit: "tonnes/ha"
+        split_strategy: "chronological_1997_2020"
+        eval_metrics: ["r2", "mae", "rmse", "mbe"]
+        
+      - id: "task_b2"
+        name: "District-Level Rice Yield Panel"
+        dataset: "D4 (ICRISAT)"
+        type: "continuous_regression"
+        target_unit: "kg/ha"
+        split_strategy: "chronological_1990_2015"
+        eval_metrics: ["r2", "mae", "rmse"]
+
+  pipeline_c:
+    name: "Pipeline C: Field-Level Wheat Yield"
+    tasks:
+      - id: "task_c1"
+        name: "Eastern India Wheat Field Yield"
+        dataset: "D3 (Eastern India Wheat)"
+        type: "continuous_regression"
+        target_unit: "tonnes/ha"
+        split_strategy: "field_id_grouped"
+        eval_metrics: ["r2", "mae", "rmse", "mape_pct"]
+
+  pipeline_d:
+    name: "Pipeline D: Smart Farming IoT"
+    tasks:
+      - id: "task_d1"
+        name: "IoT Crop Yield Regression"
+        dataset: "D6 (Smart Farming IoT)"
+        type: "continuous_regression"
+        target_unit: "kg/ha"
+        split_strategy: "farm_id_grouped"
+        eval_metrics: ["r2", "mae", "rmse"]
+        
+      - id: "task_d2"
+        name: "IoT Crop-Type Classification"
+        dataset: "D6 (Smart Farming IoT)"
+        type: "multi_class_classification"
+        num_classes: 5
+        eval_metrics: ["accuracy", "macro_f1"]
+
+  pipeline_e:
+    name: "Pipeline E: Satellite Vegetation Index Prediction"
+    tasks:
+      - id: "task_e1"
+        name: "Remote Sensing Maize Yield Prediction"
+        dataset: "D9 (AgriYield 2025)"
+        type: "continuous_regression"
+        target_unit: "kg/ha"
+        split_strategy: "field_id_grouped"
+        eval_metrics: ["r2", "mae", "rmse"]
+        
+      - id: "task_e2"
+        name: "Kaggle Cup 2025-01 Satellite Indices"
+        dataset: "D8 (Satellite Indices)"
+        status: "inaccessible_404"
+

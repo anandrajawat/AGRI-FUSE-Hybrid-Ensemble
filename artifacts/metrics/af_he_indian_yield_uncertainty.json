@@ -1,0 +1,9 @@
+{
+  "conformal_q_val": 2.9719801476218564,
+  "target_coverage": 0.9,
+  "empirical_coverage": 0.8772401433691757,
+  "mean_interval_width": 5.943960295243713,
+  "non_coconut_r2": -11.716,
+  "non_coconut_mae": 4.6932,
+  "non_coconut_rmse": 42.337
+}

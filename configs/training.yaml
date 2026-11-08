@@ -1,0 +1,25 @@
+# Hardware Optimization and Training Hyperparameters for Apple M2 16GB
+training:
+  hardware:
+    platform: "macOS"
+    chip: "Apple M2"
+    memory_limit_gb: 16
+    device: "cpu" # Set to cpu for max stability across multi-threaded tree libraries, mps optional
+    num_threads: 1
+    
+  hyperparameters:
+    optimizer: "AdamW"
+    learning_rate: 0.0003
+    weight_decay: 0.0001
+    batch_size: 32
+    max_epochs: 60
+    early_stopping_patience: 15
+    gradient_clip_norm: 1.0
+    lr_scheduler: "ReduceLROnPlateau"
+    lr_scheduler_factor: 0.5
+    lr_scheduler_patience: 5
+    
+  random_seeds:
+    primary: 42
+    statistical_replicates: [42, 123, 2026]
+

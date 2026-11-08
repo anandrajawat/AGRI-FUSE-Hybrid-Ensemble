@@ -1,0 +1,2 @@
+task,best_single_model,best_single_r2,best_single_mae,af_he_stacking_r2,af_he_stacking_mae,r2_improvement,mae_reduction,conformal_coverage,non_coconut_mae,total_training_time_sec
+Indian Crop Yield (D2),XGBoost,0.9557,13.9915,0.9616,13.9856,0.005900000000000016,0.00590000000000046,0.8772401433691757,4.6932,154.68159985542297

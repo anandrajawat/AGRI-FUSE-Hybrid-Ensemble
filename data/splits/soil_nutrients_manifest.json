@@ -1,0 +1,10 @@
+{
+  "dataset": "Soil Nutrients Dataset (D7)",
+  "task": "A3_Soil_Suitability_Classification",
+  "split_method": "StratifiedShuffleSplit (70/15/15)",
+  "random_state": 42,
+  "train_samples": 434,
+  "val_samples": 93,
+  "test_samples": 93,
+  "leakage_audit": "Stratified label preservation without sample overlap."
+}

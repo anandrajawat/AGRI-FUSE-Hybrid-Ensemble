@@ -1,0 +1,13 @@
+{
+  "dataset": "ICRISAT District-Level Dataset (D4)",
+  "task": "B2_District_Macro_Yield",
+  "split_method": "Chronological (Train <= 2008, Val: 2009-2011, Test: 2012-2015)",
+  "train_years": "1990-2008",
+  "val_years": "2009-2011",
+  "test_years": "2012-2015",
+  "train_samples": 8978,
+  "val_samples": 1615,
+  "test_samples": 2210,
+  "total_samples": 12803,
+  "leakage_audit": "Strict chronological temporal separation."
+}

@@ -1,0 +1,10 @@
+mae,rmse,r2,mbe,mape_pct,model_name,training_time_sec,latency_ms_per_sample,task
+380.5548,439.5795,-0.021,-9.2898,9.06,RandomForest,0.32,0.011,Task_E1_AgriYield_Satellite
+380.6626,440.5778,-0.0257,-10.1875,9.07,ExtraTrees,0.15,0.018,Task_E1_AgriYield_Satellite
+383.7654,445.0136,-0.0464,-5.4992,9.15,XGBoost,0.07,0.001,Task_E1_AgriYield_Satellite
+381.1772,440.9677,-0.0275,-8.9633,9.08,LightGBM,0.234,0.001,Task_E1_AgriYield_Satellite
+380.2301,437.979,-0.0136,-8.5795,9.06,CatBoost,0.161,0.0,Task_E1_AgriYield_Satellite
+383.2296,443.968,-0.0415,-4.7236,9.14,HistGradientBoosting,0.08,0.003,Task_E1_AgriYield_Satellite
+378.4939,435.4149,-0.0018,-8.7385,9.02,Ridge,0.001,0.0,Task_E1_AgriYield_Satellite
+378.8692,437.1074,-0.0096,-12.9819,9.02,MLP,2.052,0.0,Task_E1_AgriYield_Satellite
+380.739,437.9543,-0.0135,-50.6874,8.98,AGRI-FUSE (gated),28.79,0.017,Task_E1_AgriYield_Satellite

@@ -1,0 +1,11 @@
+{
+  "dataset": "Crop Recommendation (D1)",
+  "task": "A1_Crop_Recommendation",
+  "split_method": "StratifiedShuffleSplit (70/15/15)",
+  "random_state": 123,
+  "train_samples": 1540,
+  "val_samples": 330,
+  "test_samples": 330,
+  "total_samples": 2200,
+  "leakage_audit": "Train, val, and test index intersection is strictly empty."
+}

@@ -1,0 +1,15 @@
+mae,rmse,r2,mbe,mape_pct,ablation_id,models_included,ensemble_strategy,task_id
+15.4339,178.431,0.9552,3.5901,199.53,1. Random Forest alone,RF,single,Task_B1_Indian_Yield
+13.9915,177.3269,0.9557,-2.1117,189.81,2. XGBoost alone,XGBoost,single,Task_B1_Indian_Yield
+14.3795,183.6908,0.9525,-0.2344,216.69,3. CatBoost alone,CatBoost,single,Task_B1_Indian_Yield
+62.6119,754.3042,0.1988,-62.2497,70.95,4. AGRI-FUSE alone,AGRI_FUSE,single,Task_B1_Indian_Yield
+13.1358,167.6292,0.9604,0.7392,180.81,5. RF + XGBoost,RF+XGBoost,average,Task_B1_Indian_Yield
+13.9282,172.8434,0.9579,1.6779,201.5,6. RF + CatBoost,RF+CatBoost,average,Task_B1_Indian_Yield
+13.792,178.909,0.9549,-1.173,169.53,7. XGBoost + CatBoost,XGBoost+CatBoost,average,Task_B1_Indian_Yield
+34.2884,414.0169,0.7586,-29.3298,131.75,8. AGRI-FUSE + RF,AGRI_FUSE+RF,average,Task_B1_Indian_Yield
+34.1754,421.1889,0.7502,-32.1807,116.14,9. AGRI-FUSE + XGBoost,AGRI_FUSE+XGBoost,average,Task_B1_Indian_Yield
+33.3588,412.1508,0.7608,-31.2421,130.63,10. AGRI-FUSE + CatBoost,AGRI_FUSE+CatBoost,average,Task_B1_Indian_Yield
+19.5889,262.5173,0.903,-15.2514,140.82,11. All 4 Simple Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,simple_avg,Task_B1_Indian_Yield
+19.5889,262.5173,0.903,-15.2514,140.82,12. All 4 Weighted Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,weighted_avg,Task_B1_Indian_Yield
+13.9856,165.1082,0.9616,3.2887,186.75,13. All 4 Stacking (AF-HE Stacked Fusion),RF+XGBoost+CatBoost+AGRI_FUSE,stacking,Task_B1_Indian_Yield
+19.5889,262.5173,0.903,-15.2514,140.82,14. All 4 Adaptive Reliability Weighting,RF+XGBoost+CatBoost+AGRI_FUSE,adaptive,Task_B1_Indian_Yield

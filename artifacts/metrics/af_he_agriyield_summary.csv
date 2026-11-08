@@ -1,0 +1,2 @@
+task,best_single_model,best_single_r2,best_single_mae,af_he_stacking_r2,af_he_stacking_mae,r2_improvement,mae_reduction,conformal_coverage,total_training_time_sec
+AgriYield 2025 (D9),CatBoost,-0.0127,379.5747,-0.0008,378.4362,0.011899999999999999,1.1385000000000218,0.904,65.96798801422119

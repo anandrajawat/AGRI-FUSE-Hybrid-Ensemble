@@ -1,0 +1,88 @@
+# Model Architecture and Baselines Configuration
+models:
+  baselines:
+    classification:
+      - name: "RandomForest"
+        n_estimators: 100
+        max_depth: 15
+      - name: "ExtraTrees"
+        n_estimators: 100
+        max_depth: 15
+      - name: "XGBoost"
+        n_estimators: 100
+        max_depth: 6
+        learning_rate: 0.1
+      - name: "LightGBM"
+        n_estimators: 100
+        max_depth: 6
+        learning_rate: 0.1
+      - name: "CatBoost"
+        iterations: 100
+        depth: 6
+        learning_rate: 0.1
+      - name: "HistGradientBoosting"
+        max_iter: 100
+      - name: "LogisticRegression"
+        max_iter: 500
+      - name: "MLP"
+        hidden_layer_sizes: [128, 64]
+        max_iter: 200
+
+    regression:
+      - name: "RandomForest"
+        n_estimators: 100
+        max_depth: 15
+      - name: "ExtraTrees"
+        n_estimators: 100
+        max_depth: 15
+      - name: "XGBoost"
+        n_estimators: 100
+        max_depth: 6
+      - name: "LightGBM"
+        n_estimators: 100
+        max_depth: 6
+      - name: "CatBoost"
+        iterations: 100
+        depth: 6
+      - name: "HistGradientBoosting"
+        max_iter: 100
+      - name: "Ridge"
+        alpha: 1.0
+      - name: "MLP"
+        hidden_layer_sizes: [128, 64]
+        max_iter: 200
+
+  agri_fuse:
+    latent_dim: 128
+    dropout_rate: 0.2
+    encoders:
+      soil:
+        hidden_dim: 64
+        out_dim: 128
+        norm: "BatchNorm1d"
+        activation: "GELU"
+      environmental:
+        hidden_dim: 64
+        out_dim: 128
+        norm: "BatchNorm1d"
+        activation: "GELU"
+      iot:
+        hidden_dim: 64
+        out_dim: 128
+        norm: "BatchNorm1d"
+        activation: "GELU"
+      agricultural_context:
+        hidden_dim: 64
+        out_dim: 128
+        norm: "BatchNorm1d"
+        activation: "GELU"
+      satellite_index:
+        hidden_dim: 32
+        out_dim: 128
+        norm: "BatchNorm1d"
+        activation: "GELU"
+    fusion:
+      type: "availability_aware_gated"
+      gate_hidden_dim: 64
+      output_projection_dim: 128
+

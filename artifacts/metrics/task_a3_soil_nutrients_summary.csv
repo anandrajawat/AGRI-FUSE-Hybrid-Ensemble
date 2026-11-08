@@ -1,0 +1,9 @@
+accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,model_name,training_time_sec,latency_ms_per_sample,task
+0.9785,0.9798,0.9792,0.9788,0.9785,RandomForest,0.067,0.146,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,ExtraTrees,0.05,0.147,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,XGBoost,0.07,0.006,Task_A3_Soil_Suitability
+0.9677,0.9694,0.9681,0.968,0.9677,LightGBM,0.681,0.01,Task_A3_Soil_Suitability
+0.9785,0.9798,0.9792,0.9788,0.9785,CatBoost,0.169,0.003,Task_A3_Soil_Suitability
+0.9677,0.9694,0.9681,0.968,0.9677,HistGradientBoosting,0.165,0.037,Task_A3_Soil_Suitability
+0.9892,0.9902,0.9896,0.9896,0.9892,LogisticRegression,0.003,0.001,Task_A3_Soil_Suitability
+0.9677,0.9711,0.9688,0.9676,0.9669,MLP,0.039,0.001,Task_A3_Soil_Suitability

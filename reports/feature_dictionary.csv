@@ -1,0 +1,159 @@
+dataset,raw_feature_name,standardized_name,modality_category,physical_unit,domain_range,data_type,scientific_description
+D1: Crop Recommendation,N,n,Soil,kg/ha or mg/kg,"[0.0, 140.0]",int64,Soil Nitrogen content
+D1: Crop Recommendation,P,p,Soil,kg/ha or mg/kg,"[5.0, 145.0]",int64,Soil Phosphorus content
+D1: Crop Recommendation,K,k,Soil,kg/ha or mg/kg,"[5.0, 205.0]",int64,Soil Potassium content
+D1: Crop Recommendation,temperature,temperature,Environmental,°C,"[8.83, 43.68]",float64,Ambient temperature
+D1: Crop Recommendation,humidity,humidity,Environmental,%,"[14.26, 99.98]",float64,Relative atmospheric humidity
+D1: Crop Recommendation,ph,ph,Soil,0-14 pH,"[3.5, 9.94]",float64,Soil pH acidity/alkalinity scale
+D1: Crop Recommendation,rainfall,rainfall,Environmental,mm,"[20.21, 298.56]",float64,Growing season / annual precipitation
+D1: Crop Recommendation,label,label,Target,Categorical,22 unique categories,str,Recommended crop class or suitability label
+D2: Indian Crop Yield,Crop,crop,Agricultural Context,Categorical,55 unique categories,str,Crop species name
+D2: Indian Crop Yield,Crop_Year,crop_year,Metadata,Year (YYYY),"[1997.0, 2020.0]",int64,Calendar / agricultural crop year
+D2: Indian Crop Yield,Season,season,Agricultural Context,Categorical,6 unique categories,str,"Cropping season (Kharif, Rabi, Summer, Whole Year)"
+D2: Indian Crop Yield,State,state,Agricultural Context,Categorical,30 unique categories,str,Geographic state jurisdiction
+D2: Indian Crop Yield,Area,area,Area / Auxiliary,Hectares,"[0.5, 50808100.0]",float64,Total cultivated land area
+D2: Indian Crop Yield,Production,production,Production / Auxiliary,Tonnes,"[0.0, 6326000000.0]",int64,Total gross agricultural production
+D2: Indian Crop Yield,Annual_Rainfall,annual_rainfall,Environmental,mm,"[301.3, 6552.7]",float64,Annual meteorological rainfall
+D2: Indian Crop Yield,Fertilizer,fertilizer,Agricultural Context,Kilograms,"[54.17, 4835406877.0]",float64,Fertilizer application mass
+D2: Indian Crop Yield,Pesticide,pesticide,Agricultural Context,Kilograms,"[0.09, 15750511.0]",float64,Pesticide active ingredient application mass
+D2: Indian Crop Yield,Yield,yield,Target,Tonnes / ha,"[0.0, 21105.0]",float64,Crop yield per unit area
+D3: Eastern India Wheat,Field_ID,field_id,Metadata,Categorical / ID,"[1.0, 6288.0]",int64,Unique agronomic trial plot identifier
+D3: Eastern India Wheat,Year,year,Metadata,Year (YYYY or YYYY-YY),6 unique categories,str,Cropping season year
+D3: Eastern India Wheat,District,district,Agricultural Context,Categorical,10 unique categories,str,Geographic district administrative unit
+D3: Eastern India Wheat,State,state,Agricultural Context,Categorical,2 unique categories,str,Geographic state jurisdiction
+D3: Eastern India Wheat,LandType,landtype,Agricultural Context,Categorical,3 unique categories,str,"Topographic land position (Upland, Medium, Lowland)"
+D3: Eastern India Wheat,SoilType,soiltype,Soil,Categorical,5 unique categories,str,Agronomic soil classification
+D3: Eastern India Wheat,PreviousCrop,previouscrop,Agronomic / Climate Context,Standard units,7 unique categories,str,Agronomic indicator: PreviousCrop
+D3: Eastern India Wheat,PrevCropResidue,prevcropresidue,Agronomic / Climate Context,Standard units,"[0.0, 100.0]",int64,Agronomic indicator: PrevCropResidue
+D3: Eastern India Wheat,CropEstablishment,cropestablishment,Agronomic / Climate Context,Standard units,2 unique categories,str,Agronomic indicator: CropEstablishment
+D3: Eastern India Wheat,Variety,variety,Agricultural Context,Categorical,25 unique categories,str,Crop cultivar / variety name
+D3: Eastern India Wheat,VarietyClass,varietyclass,Agricultural Context,Categorical,2 unique categories,str,Cultivar duration class
+D3: Eastern India Wheat,SeedRate,seedrate,Agronomic / Climate Context,Standard units,"[99.0, 161.0]",float64,Agronomic indicator: SeedRate
+D3: Eastern India Wheat,SowingDate,sowingdate,Agronomic / Climate Context,Standard units,321 unique categories,datetime64[us],Agronomic indicator: SowingDate
+D3: Eastern India Wheat,SowingDay,sowingday,Agronomic / Climate Context,Standard units,"[305.0, 365.0]",int64,Agronomic indicator: SowingDay
+D3: Eastern India Wheat,BasalDAP,basaldap,Agronomic / Climate Context,Standard units,"[0.0, 185.0]",int64,Agronomic indicator: BasalDAP
+D3: Eastern India Wheat,BasalNPK,basalnpk,Agronomic / Climate Context,Standard units,"[0.0, 185.0]",float64,Agronomic indicator: BasalNPK
+D3: Eastern India Wheat,GradeNPK,gradenpk,Agronomic / Climate Context,Standard units,5 unique categories,object,Agronomic indicator: GradeNPK
+D3: Eastern India Wheat,BasalMOP,basalmop,Agronomic / Climate Context,Standard units,"[0.0, 109.0]",float64,Agronomic indicator: BasalMOP
+D3: Eastern India Wheat,BasalZn,basalzn,Agronomic / Climate Context,Standard units,"[1.5, 45.0]",float64,Agronomic indicator: BasalZn
+D3: Eastern India Wheat,Split1Urea,split1urea,Agronomic / Climate Context,Standard units,"[62.5, 185.0]",float64,Agronomic indicator: Split1Urea
+D3: Eastern India Wheat,Split2Urea,split2urea,Agronomic / Climate Context,Standard units,"[24.4, 185.0]",float64,Agronomic indicator: Split2Urea
+D3: Eastern India Wheat,Split3Urea,split3urea,Agronomic / Climate Context,Standard units,"[0.0, 125.0]",float64,Agronomic indicator: Split3Urea
+D3: Eastern India Wheat,IrrigationNumber,irrigationnumber,Agronomic / Climate Context,Standard units,"[1.0, 5.0]",int64,Agronomic indicator: IrrigationNumber
+D3: Eastern India Wheat,FirstIrrigationDay,firstirrigationday,Agronomic / Climate Context,Standard units,"[15.0, 48.0]",int64,Agronomic indicator: FirstIrrigationDay
+D3: Eastern India Wheat,SecondIrrigationDay,secondirrigationday,Agronomic / Climate Context,Standard units,"[0.0, 114.0]",int64,Agronomic indicator: SecondIrrigationDay
+D3: Eastern India Wheat,ThirdIrrigationDay,thirdirrigationday,Agronomic / Climate Context,Standard units,"[0.0, 120.0]",int64,Agronomic indicator: ThirdIrrigationDay
+D3: Eastern India Wheat,FourthIrrigationDay,fourthirrigationday,Agronomic / Climate Context,Standard units,"[0.0, 125.0]",int64,Agronomic indicator: FourthIrrigationDay
+D3: Eastern India Wheat,FifthIrrigationDay,fifthirrigationday,Agronomic / Climate Context,Standard units,"[100.0, 128.0]",float64,Agronomic indicator: FifthIrrigationDay
+D3: Eastern India Wheat,HerbicideName,herbicidename,Agronomic / Climate Context,Standard units,28 unique categories,str,Agronomic indicator: HerbicideName
+D3: Eastern India Wheat,HerbicideType,herbicidetype,Agronomic / Climate Context,Standard units,3 unique categories,str,Agronomic indicator: HerbicideType
+D3: Eastern India Wheat,WeedingNumber,weedingnumber,Agronomic / Climate Context,Standard units,"[0.0, 1.0]",int64,Agronomic indicator: WeedingNumber
+D3: Eastern India Wheat,CropLodging,croplodging,Agronomic / Climate Context,Standard units,"[0.0, 100.0]",int64,Agronomic indicator: CropLodging
+D3: Eastern India Wheat,HarvestDate,harvestdate,Agronomic / Climate Context,Standard units,201 unique categories,datetime64[us],Agronomic indicator: HarvestDate
+D3: Eastern India Wheat,HarvestDay,harvestday,Agronomic / Climate Context,Standard units,"[63.0, 140.0]",int64,Agronomic indicator: HarvestDay
+D3: Eastern India Wheat,Prcp_Monsoon,prcp_monsoon,Agronomic / Climate Context,Standard units,"[573.87, 1296.58]",float64,Agronomic indicator: Prcp_Monsoon
+D3: Eastern India Wheat,Prcp_Oct,prcp_oct,Agronomic / Climate Context,Standard units,"[2.89, 228.43]",float64,Agronomic indicator: Prcp_Oct
+D3: Eastern India Wheat,Nov_Tmax,nov_tmax,Agronomic / Climate Context,Standard units,"[26.06, 28.38]",float64,Agronomic indicator: Nov_Tmax
+D3: Eastern India Wheat,EDD_Nov,edd_nov,Agronomic / Climate Context,Standard units,"[0.0, 12.0]",int64,Agronomic indicator: EDD_Nov
+D3: Eastern India Wheat,Dec_Tmax,dec_tmax,Agronomic / Climate Context,Standard units,"[19.99, 25.03]",float64,Agronomic indicator: Dec_Tmax
+D3: Eastern India Wheat,EDD_Dec,edd_dec,Agronomic / Climate Context,Standard units,"[0.0, 16.0]",int64,Agronomic indicator: EDD_Dec
+D3: Eastern India Wheat,Jan_Srad,jan_srad,Agronomic / Climate Context,Standard units,"[368.0, 509.0]",float64,Agronomic indicator: Jan_Srad
+D3: Eastern India Wheat,Feb_Srad,feb_srad,Agronomic / Climate Context,Standard units,"[449.0, 538.0]",float64,Agronomic indicator: Feb_Srad
+D3: Eastern India Wheat,Mar_Tmax,mar_tmax,Agronomic / Climate Context,Standard units,"[28.59, 34.52]",float64,Agronomic indicator: Mar_Tmax
+D3: Eastern India Wheat,EDD_Mar,edd_mar,Agronomic / Climate Context,Standard units,"[0.0, 28.0]",int64,Agronomic indicator: EDD_Mar
+D3: Eastern India Wheat,Apr_Tmax,apr_tmax,Agronomic / Climate Context,Standard units,"[32.46, 40.12]",float64,Agronomic indicator: Apr_Tmax
+D3: Eastern India Wheat,EDD_Apr,edd_apr,Agronomic / Climate Context,Standard units,"[0.0, 30.0]",int64,Agronomic indicator: EDD_Apr
+D3: Eastern India Wheat,GrainYield,grainyield,Target,Tonnes / ha,"[1.39, 6.96]",float64,Measured wheat grain yield
+D3: Eastern India Wheat,Latitude,latitude,Agronomic / Climate Context,Standard units,"[24.87, 26.98]",float64,Agronomic indicator: Latitude
+D3: Eastern India Wheat,Longitude,longitude,Agronomic / Climate Context,Standard units,"[83.4, 86.97]",float64,Agronomic indicator: Longitude
+D4: ICRISAT District-Level,Dist Code,dist_code,Agronomic / Climate Context,Standard units,"[1.0, 2060.0]",int64,Agronomic indicator: Dist Code
+D4: ICRISAT District-Level,Year,year,Metadata,Year (YYYY or YYYY-YY),"[1990.0, 2015.0]",int64,Cropping season year
+D4: ICRISAT District-Level,State Code,state_code,Agronomic / Climate Context,Standard units,"[1.0, 20.0]",int64,Agronomic indicator: State Code
+D4: ICRISAT District-Level,State Name,state_name,Agricultural Context,Categorical,20 unique categories,str,State administrative name
+D4: ICRISAT District-Level,Dist Name,dist_name,Agricultural Context,Categorical,555 unique categories,str,District administrative name
+D4: ICRISAT District-Level,RICE AREA (1000 ha),rice_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.0, 918.6]",float64,Agronomic indicator: RICE AREA (1000 ha)
+D4: ICRISAT District-Level,RICE PRODUCTION (1000 tons),rice_production_(1000_tons),Agronomic / Climate Context,Standard units,"[0.0, 2145.29]",float64,Agronomic indicator: RICE PRODUCTION (1000 tons)
+D4: ICRISAT District-Level,RICE YIELD (Kg per ha),rice_yield_(kg_per_ha),Agronomic / Climate Context,Standard units,"[0.0, 9750.0]",float64,Agronomic indicator: RICE YIELD (Kg per ha)
+D4: ICRISAT District-Level,PEARL MILLET AREA (1000 ha),pearl_millet_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.0, 1032.51]",float64,Agronomic indicator: PEARL MILLET AREA (1000 ha)
+D4: ICRISAT District-Level,PEARL MILLET PRODUCTION (1000 tons),pearl_millet_production_(1000_tons),Agronomic / Climate Context,Standard units,"[0.0, 826.82]",float64,Agronomic indicator: PEARL MILLET PRODUCTION (1000 tons)
+D4: ICRISAT District-Level,PEARL MILLET YIELD (Kg per ha),pearl_millet_yield_(kg_per_ha),Agronomic / Climate Context,Standard units,"[0.0, 6316.0]",float64,Agronomic indicator: PEARL MILLET YIELD (Kg per ha)
+D4: ICRISAT District-Level,CHICKPEA AREA (1000 ha),chickpea_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.0, 545.29]",float64,Agronomic indicator: CHICKPEA AREA (1000 ha)
+D4: ICRISAT District-Level,CHICKPEA PRODUCTION (1000 tons),chickpea_production_(1000_tons),Agronomic / Climate Context,Standard units,"[0.0, 411.58]",float64,Agronomic indicator: CHICKPEA PRODUCTION (1000 tons)
+D4: ICRISAT District-Level,CHICKPEA YIELD (Kg per ha),chickpea_yield_(kg_per_ha),Agronomic / Climate Context,Standard units,"[0.0, 4500.0]",float64,Agronomic indicator: CHICKPEA YIELD (Kg per ha)
+D4: ICRISAT District-Level,GROUNDNUT AREA (1000 ha),groundnut_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.0, 899.04]",float64,Agronomic indicator: GROUNDNUT AREA (1000 ha)
+D4: ICRISAT District-Level,GROUNDNUT PRODUCTION (1000 tons),groundnut_production_(1000_tons),Agronomic / Climate Context,Standard units,"[0.0, 1390.06]",float64,Agronomic indicator: GROUNDNUT PRODUCTION (1000 tons)
+D4: ICRISAT District-Level,GROUNDNUT YIELD (Kg per ha),groundnut_yield_(kg_per_ha),Agronomic / Climate Context,Standard units,"[0.0, 6466.0]",float64,Agronomic indicator: GROUNDNUT YIELD (Kg per ha)
+D4: ICRISAT District-Level,SUGARCANE AREA (1000 ha),sugarcane_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.0, 277.3]",float64,Agronomic indicator: SUGARCANE AREA (1000 ha)
+D4: ICRISAT District-Level,SUGARCANE PRODUCTION (1000 tons),sugarcane_production_(1000_tons),Agronomic / Climate Context,Standard units,"[0.0, 2004.97]",float64,Agronomic indicator: SUGARCANE PRODUCTION (1000 tons)
+D4: ICRISAT District-Level,SUGARCANE YIELD (Kg per ha),sugarcane_yield_(kg_per_ha),Agronomic / Climate Context,Standard units,"[0.0, 27139.0]",float64,Agronomic indicator: SUGARCANE YIELD (Kg per ha)
+D4: ICRISAT District-Level,GROSS CROPPED AREA (1000 ha),gross_cropped_area_(1000_ha),Agronomic / Climate Context,Standard units,"[0.13, 2050.9]",float64,Agronomic indicator: GROSS CROPPED AREA (1000 ha)
+D4: ICRISAT District-Level,NITROGEN CONSUMPTION (tons),nitrogen_consumption_(tons),Agronomic / Climate Context,Standard units,"[-1.0, 185345.0]",float64,Agronomic indicator: NITROGEN CONSUMPTION (tons)
+D4: ICRISAT District-Level,PHOSPHATE CONSUMPTION (tons),phosphate_consumption_(tons),Agronomic / Climate Context,Standard units,"[-1.0, 112429.0]",float64,Agronomic indicator: PHOSPHATE CONSUMPTION (tons)
+D4: ICRISAT District-Level,POTASH CONSUMPTION (tons),potash_consumption_(tons),Agronomic / Climate Context,Standard units,"[-1.0, 89841.0]",float64,Agronomic indicator: POTASH CONSUMPTION (tons)
+D4: ICRISAT District-Level,TOTAL FERTILISER CONSUMPTION (tons),total_fertiliser_consumption_(tons),Agronomic / Climate Context,Standard units,"[-1.0, 337082.0]",float64,Agronomic indicator: TOTAL FERTILISER CONSUMPTION (tons)
+D5: SF24 Smart Farming,N,n,Soil,kg/ha or mg/kg,"[0.0, 140.0]",int64,Soil Nitrogen content
+D5: SF24 Smart Farming,P,p,Soil,kg/ha or mg/kg,"[5.0, 145.0]",int64,Soil Phosphorus content
+D5: SF24 Smart Farming,K,k,Soil,kg/ha or mg/kg,"[5.0, 205.0]",int64,Soil Potassium content
+D5: SF24 Smart Farming,temperature,temperature,Environmental,°C,"[8.83, 43.68]",float64,Ambient temperature
+D5: SF24 Smart Farming,humidity,humidity,Environmental,%,"[14.26, 99.98]",float64,Relative atmospheric humidity
+D5: SF24 Smart Farming,ph,ph,Soil,0-14 pH,"[3.5, 9.94]",float64,Soil pH acidity/alkalinity scale
+D5: SF24 Smart Farming,rainfall,rainfall,Environmental,mm,"[20.21, 298.56]",float64,Growing season / annual precipitation
+D5: SF24 Smart Farming,label,label,Target,Categorical,22 unique categories,str,Recommended crop class or suitability label
+D5: SF24 Smart Farming,soil_moisture,soil_moisture,IoT Sensor,%,"[10.02, 30.0]",float64,Volumetric soil moisture
+D5: SF24 Smart Farming,soil_type,soil_type,Soil,Categorical,"[1.0, 3.0]",int64,Categorical soil classification
+D5: SF24 Smart Farming,sunlight_exposure,sunlight_exposure,Environmental,Hours,"[5.0, 11.99]",float64,Daily sunlight exposure duration
+D5: SF24 Smart Farming,wind_speed,wind_speed,Environmental,km/h,"[0.0, 19.99]",float64,Anemometer wind velocity
+D5: SF24 Smart Farming,co2_concentration,co2_concentration,Environmental,ppm,"[350.0, 449.98]",float64,Ambient CO2 sensor reading
+D5: SF24 Smart Farming,organic_matter,organic_matter,Soil,%,"[1.0, 10.0]",float64,Soil Organic Matter percentage
+D5: SF24 Smart Farming,irrigation_frequency,irrigation_frequency,Agricultural Context,Count,"[1.0, 6.0]",int64,Irrigation application count
+D5: SF24 Smart Farming,crop_density,crop_density,Agronomic / Climate Context,Standard units,"[5.0, 19.99]",float64,Agronomic indicator: crop_density
+D5: SF24 Smart Farming,pest_pressure,pest_pressure,Agronomic / Climate Context,Standard units,"[0.04, 99.98]",float64,Agronomic indicator: pest_pressure
+D5: SF24 Smart Farming,fertilizer_usage,fertilizer_usage,Agronomic / Climate Context,Standard units,"[50.21, 199.98]",float64,Agronomic indicator: fertilizer_usage
+D5: SF24 Smart Farming,growth_stage,growth_stage,Agronomic / Climate Context,Standard units,"[1.0, 3.0]",int64,Agronomic indicator: growth_stage
+D5: SF24 Smart Farming,urban_area_proximity,urban_area_proximity,Agronomic / Climate Context,Standard units,"[0.02, 49.99]",float64,Agronomic indicator: urban_area_proximity
+D5: SF24 Smart Farming,water_source_type,water_source_type,Agricultural Context,Categorical,"[1.0, 3.0]",int64,Source of irrigation water
+D5: SF24 Smart Farming,frost_risk,frost_risk,Agronomic / Climate Context,Standard units,"[0.05, 99.96]",float64,Agronomic indicator: frost_risk
+D5: SF24 Smart Farming,water_usage_efficiency,water_usage_efficiency,Agronomic / Climate Context,Standard units,"[1.0, 5.0]",float64,Agronomic indicator: water_usage_efficiency
+D6: Smart Farming IoT,farm_id,farm_id,Metadata,Categorical / ID,500 unique categories,str,Unique farm enterprise identifier
+D6: Smart Farming IoT,region,region,Agronomic / Climate Context,Standard units,5 unique categories,str,Agronomic indicator: region
+D6: Smart Farming IoT,crop_type,crop_type,Agricultural Context,Categorical,5 unique categories,str,Crop species name
+D6: Smart Farming IoT,soil_moisture_%,soil_moisture_pct,IoT Sensor,%,"[10.16, 44.98]",float64,Volumetric soil moisture percentage
+D6: Smart Farming IoT,soil_pH,soil_ph,Soil,0-14 pH,"[5.51, 7.5]",float64,Soil pH acidity/alkalinity scale
+D6: Smart Farming IoT,temperature_C,temperature_c,Environmental,°C,"[15.0, 34.84]",float64,IoT ambient temperature sensor
+D6: Smart Farming IoT,rainfall_mm,rainfall_mm,Environmental,mm,"[50.17, 298.96]",float64,IoT cumulative rainfall sensor
+D6: Smart Farming IoT,humidity_%,humidity_pct,Environmental,%,"[40.23, 90.0]",float64,IoT relative humidity sensor
+D6: Smart Farming IoT,sunlight_hours,sunlight_hours,Environmental,Hours,"[4.01, 10.0]",float64,IoT photoperiod solar radiation sensor
+D6: Smart Farming IoT,irrigation_type,irrigation_type,Agricultural Context,Categorical,3 unique categories,str,"Farm irrigation method (Drip, Sprinkler, Flood)"
+D6: Smart Farming IoT,fertilizer_type,fertilizer_type,Agricultural Context,Categorical,3 unique categories,str,Fertilizer chemical composition type
+D6: Smart Farming IoT,pesticide_usage_ml,pesticide_usage_ml,Agricultural Context,mL,"[5.05, 49.94]",float64,Pesticide fluid application volume
+D6: Smart Farming IoT,sowing_date,sowing_date,Metadata,Date (YYYY-MM-DD),84 unique categories,str,Planting date
+D6: Smart Farming IoT,harvest_date,harvest_date,Metadata,Date (YYYY-MM-DD),123 unique categories,str,Crop harvest date
+D6: Smart Farming IoT,total_days,total_days,Metadata,Days,"[90.0, 150.0]",int64,Crop growth duration period
+D6: Smart Farming IoT,yield_kg_per_hectare,yield_kg_per_hectare,Target,kg/ha,"[2023.56, 5998.29]",float64,Measured crop yield per hectare
+D6: Smart Farming IoT,sensor_id,sensor_id,Metadata,Categorical / ID,500 unique categories,str,IoT hardware sensor node identifier
+D6: Smart Farming IoT,timestamp,timestamp,Metadata,ISO DateTime,172 unique categories,str,Sensor telemetry timestamp
+D6: Smart Farming IoT,latitude,latitude,Metadata,Decimal Degrees,"[10.0, 34.98]",float64,Field geographic latitude coordinate
+D6: Smart Farming IoT,longitude,longitude,Metadata,Decimal Degrees,"[70.02, 89.99]",float64,Field geographic longitude coordinate
+D6: Smart Farming IoT,NDVI_index,ndvi_index,Satellite Index,"[-1, 1]","[0.3, 0.9]",float64,Normalized Difference Vegetation Index
+D6: Smart Farming IoT,crop_disease_status,crop_disease_status,Diagnostic / Secondary,"Categorical (Mild, Severe, NaN)",3 unique categories,str,Observed plant disease diagnosis
+D7: Soil Nutrients,N,n,Soil,kg/ha or mg/kg,"[30.0, 198.0]",int64,Soil Nitrogen content
+D7: Soil Nutrients,P,p,Soil,kg/ha or mg/kg,"[10.0, 100.0]",int64,Soil Phosphorus content
+D7: Soil Nutrients,K,k,Soil,kg/ha or mg/kg,"[51.0, 369.0]",int64,Soil Potassium content
+D7: Soil Nutrients,ph,ph,Soil,0-14 pH,"[4.5, 8.0]",float64,Soil pH acidity/alkalinity scale
+D7: Soil Nutrients,EC,ec,Soil,dS/m,"[0.01, 2.48]",float64,Electrical Conductivity
+D7: Soil Nutrients,S,s,Soil,mg/kg,"[0.01, 113.2]",float64,Soil Sulfur content
+D7: Soil Nutrients,Cu,cu,Soil,mg/kg,"[0.18, 35.0]",float64,Soil Copper content
+D7: Soil Nutrients,Fe,fe,Soil,mg/kg,"[3.81, 276.72]",float64,Soil Iron content
+D7: Soil Nutrients,Mn,mn,Soil,mg/kg,"[20.58, 1572.54]",float64,Soil Manganese content
+D7: Soil Nutrients,Zn,zn,Soil,mg/kg,"[17.99, 70.0]",float64,Soil Zinc content
+D7: Soil Nutrients,B,b,Soil,mg/kg,"[1.02, 74.56]",float64,Soil Boron content
+D7: Soil Nutrients,label,label,Target,Categorical,6 unique categories,str,Recommended crop class or suitability label
+D9: AgriYield 2025,field_id,field_id,Metadata,Categorical / ID,10000 unique categories,str,Unique agricultural field parcel identifier
+D9: AgriYield 2025,soil_ph,soil_ph,Soil,0-14 pH,"[5.5, 7.5]",float64,Soil pH acidity/alkalinity scale
+D9: AgriYield 2025,organic_matter,organic_matter,Soil,%,"[1.5, 4.0]",float64,Soil Organic Matter percentage
+D9: AgriYield 2025,sand_pct,sand_pct,Soil,%,"[30.0, 60.0]",float64,Sand particle fraction in soil
+D9: AgriYield 2025,temperature,temperature,Environmental,°C,"[24.0, 30.0]",float64,Ambient temperature
+D9: AgriYield 2025,humidity,humidity,Environmental,%,"[65.0, 84.0]",int64,Relative atmospheric humidity
+D9: AgriYield 2025,rainfall,rainfall,Environmental,mm,"[100.0, 180.0]",float64,Growing season / annual precipitation
+D9: AgriYield 2025,ndvi,ndvi,Satellite Index,"[-1, 1]","[0.4, 0.75]",float64,Normalized Difference Vegetation Index
+D9: AgriYield 2025,yield,yield,Target,kg/ha,"[3500.2, 5000.0]",float64,Measured maize grain yield

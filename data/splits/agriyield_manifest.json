@@ -1,0 +1,13 @@
+{
+  "dataset": "AgriYield 2025 (D9)",
+  "task": "E1_Satellite_Index_Maize_Yield",
+  "split_method": "GroupShuffleSplit by field_id (70/15/15)",
+  "random_state": 42,
+  "train_samples": 7000,
+  "val_samples": 1500,
+  "test_samples": 1500,
+  "unique_fields_train": 7000,
+  "unique_fields_val": 1500,
+  "unique_fields_test": 1500,
+  "leakage_audit": "Strictly field-disjoint evaluation."
+}

@@ -1,0 +1,3 @@
+experiment,source_dataset,target_dataset,transfer_metric,source_performance,target_performance,performance_drop,scientific_conclusion
+D1 (Crop Rec) -> D5 (SF24) Zero-Shot Transfer,Crop Recommendation (D1),SF24 Smart Farming (D5),Accuracy,1.0,1.0,0.0,Identical base feature distribution confirms SF24 base rows are exact copies of D1.
+D2 (State Macro) vs D4 (ICRISAT District Mean) Rice Yield Harmonization,Indian Crop Yield (D2),ICRISAT District Panel (D4),Pearson Correlation (r) over common years,1.0,0.8996,0.1004,Strong macro-temporal coherence (r = 0.8996) between district-aggregated ICRISAT panel and state-level ministry statistics.

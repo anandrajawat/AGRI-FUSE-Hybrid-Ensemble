@@ -1,0 +1,15 @@
+mae,rmse,r2,mbe,mape_pct,ablation_id,models_included,ensemble_strategy,task_id
+1055.863,1198.8975,0.0229,-146.7165,28.95,1. Random Forest alone,RF,single,Task_D1_IoT_Yield
+1030.7695,1193.3325,0.0319,-193.7748,27.35,2. XGBoost alone,XGBoost,single,Task_D1_IoT_Yield
+1008.641,1177.1166,0.058,-136.5464,27.63,3. CatBoost alone,CatBoost,single,Task_D1_IoT_Yield
+4188.8964,4360.9435,-11.9287,-4188.8964,99.72,4. AGRI-FUSE alone,AGRI_FUSE,single,Task_D1_IoT_Yield
+1036.2579,1182.5832,0.0493,-170.2456,27.97,5. RF + XGBoost,RF+XGBoost,average,Task_D1_IoT_Yield
+1031.8291,1183.6275,0.0476,-141.6315,28.28,6. RF + CatBoost,RF+CatBoost,average,Task_D1_IoT_Yield
+1014.8058,1170.9651,0.0679,-165.1606,27.37,7. XGBoost + CatBoost,XGBoost+CatBoost,average,Task_D1_IoT_Yield
+2167.8064,2475.7752,-3.1669,-2167.8064,46.65,8. AGRI-FUSE + RF,AGRI_FUSE+RF,average,Task_D1_IoT_Yield
+2191.3356,2482.5977,-3.1899,-2191.3356,47.81,9. AGRI-FUSE + XGBoost,AGRI_FUSE+XGBoost,average,Task_D1_IoT_Yield
+2162.7214,2463.1713,-3.1246,-2162.7214,46.74,10. AGRI-FUSE + CatBoost,AGRI_FUSE+CatBoost,average,Task_D1_IoT_Yield
+1376.6611,1650.6202,-0.8522,-1166.4835,29.6,11. All 4 Simple Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,simple_avg,Task_D1_IoT_Yield
+1376.6611,1650.6202,-0.8522,-1166.4835,29.6,12. All 4 Weighted Averaging,RF+XGBoost+CatBoost+AGRI_FUSE,weighted_avg,Task_D1_IoT_Yield
+1066.2231,1207.7363,0.0084,-133.0851,29.52,13. All 4 Stacking (AF-HE Stacked Fusion),RF+XGBoost+CatBoost+AGRI_FUSE,stacking,Task_D1_IoT_Yield
+1055.5653,1199.8464,0.0213,-287.7832,27.66,14. All 4 Adaptive Reliability Weighting,RF+XGBoost+CatBoost+AGRI_FUSE,adaptive,Task_D1_IoT_Yield

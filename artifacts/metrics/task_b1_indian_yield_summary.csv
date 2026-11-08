@@ -1,0 +1,10 @@
+mae,rmse,r2,mbe,mape_pct,model_name,training_time_sec,latency_ms_per_sample,task
+19.804,266.0037,0.9004,7.007,35.05,RandomForest,0.77,0.012,Task_B1_Indian_Yield
+18.8363,195.7553,0.946,9.978,272.51,ExtraTrees,0.168,0.012,Task_B1_Indian_Yield
+10.7862,155.2972,0.966,-3.0259,42.1,XGBoost,0.073,0.001,Task_B1_Indian_Yield
+26.9313,238.4045,0.92,3.6194,515.48,LightGBM,0.243,0.001,Task_B1_Indian_Yield
+14.128,183.5328,0.9526,-1.1186,217.67,CatBoost,0.175,0.001,Task_B1_Indian_Yield
+23.0378,211.6086,0.9369,3.8643,375.18,HistGradientBoosting,0.115,0.004,Task_B1_Indian_Yield
+128.8929,658.748,0.3889,-10.8134,9148.05,Ridge,0.002,0.0,Task_B1_Indian_Yield
+63.7199,306.988,0.8673,2.5891,4071.01,MLP,4.606,0.001,Task_B1_Indian_Yield
+15.906,217.7629,0.9332,-11.1236,79.16,AGRI-FUSE (gated),79.027,0.022,Task_B1_Indian_Yield

@@ -1,0 +1,9 @@
+accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,model_name,training_time_sec,latency_ms_per_sample,task
+0.16,0.2323,0.1544,0.166,0.1746,RandomForest,0.059,0.188,Task_D2_IoT_Crop_Type
+0.2267,0.2667,0.2289,0.2214,0.2368,ExtraTrees,0.054,0.168,Task_D2_IoT_Crop_Type
+0.1467,0.159,0.1494,0.1373,0.1496,XGBoost,0.138,0.009,Task_D2_IoT_Crop_Type
+0.2133,0.2033,0.21,0.1985,0.212,LightGBM,0.524,0.015,Task_D2_IoT_Crop_Type
+0.2133,0.1768,0.1861,0.1737,0.2049,CatBoost,0.145,0.003,Task_D2_IoT_Crop_Type
+0.1733,0.157,0.1883,0.1604,0.1614,HistGradientBoosting,0.137,0.045,Task_D2_IoT_Crop_Type
+0.1733,0.1522,0.1806,0.1557,0.1638,LogisticRegression,0.002,0.001,Task_D2_IoT_Crop_Type
+0.1733,0.4026,0.1906,0.1837,0.2012,MLP,0.021,0.002,Task_D2_IoT_Crop_Type

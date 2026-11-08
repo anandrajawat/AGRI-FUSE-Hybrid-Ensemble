@@ -1,0 +1,10 @@
+mae,rmse,r2,mbe,mape_pct,model_name,training_time_sec,latency_ms_per_sample,task
+0.4242,0.5717,0.6697,-0.0038,11.14,RandomForest,0.325,0.019,Task_C1_Eastern_Wheat_Yield
+0.4068,0.5616,0.6814,-0.0072,10.6,ExtraTrees,0.191,0.017,Task_C1_Eastern_Wheat_Yield
+0.4364,0.5773,0.6633,-0.0182,11.35,XGBoost,0.109,0.001,Task_C1_Eastern_Wheat_Yield
+0.4408,0.5781,0.6624,-0.0098,11.49,LightGBM,0.331,0.002,Task_C1_Eastern_Wheat_Yield
+0.4738,0.6078,0.6268,-0.0135,12.44,CatBoost,0.155,0.001,Task_C1_Eastern_Wheat_Yield
+0.4285,0.565,0.6775,-0.0113,11.16,HistGradientBoosting,0.139,0.005,Task_C1_Eastern_Wheat_Yield
+0.5661,0.723,0.4718,-0.0053,15.2,Ridge,0.001,0.0,Task_C1_Eastern_Wheat_Yield
+0.5247,0.6844,0.5268,-0.0667,13.49,MLP,0.614,0.0,Task_C1_Eastern_Wheat_Yield
+0.4381,0.585,0.6543,-0.0442,11.18,AGRI-FUSE (gated),18.413,0.018,Task_C1_Eastern_Wheat_Yield

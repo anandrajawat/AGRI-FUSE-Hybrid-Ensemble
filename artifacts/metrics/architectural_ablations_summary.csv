@@ -1,0 +1,7 @@
+ablation_configuration,fusion_mechanism,r2,mae,rmse,training_time_sec,latency_ms_per_sample
+Soil_Only,soil_only,-0.0165,381.1554,438.6047,10.763,0.013
+Environment_Only,env_only,-0.0171,381.3245,438.7269,11.15,0.013
+Satellite_Only,satellite_only,-0.0154,380.9772,438.3731,10.881,0.013
+Concatenation_Fusion,concat,-0.0277,382.6917,441.0124,20.268,0.015
+Mean_Fusion,mean,-0.0255,382.4543,440.5485,21.069,0.014
+Gated_Fusion_Full,gated,-0.0134,380.3936,437.9423,29.572,0.017
